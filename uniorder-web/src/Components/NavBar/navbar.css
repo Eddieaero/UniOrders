@@ -1,0 +1,30 @@
+/* navbar.css */
+
+
+.active-link {
+    border-bottom: 2px solid #f7b419; /* Change the color and width as needed */
+}
+
+.navbar-container {
+    padding: 0;
+  }
+  
+  .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav-link, .dropdown-item {
+    color: #fff;
+  }
+  
+  .nav-link.active-link, .dropdown-item.active-link {
+    border-bottom: 2px solid #f7b419;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-container {
+      padding: 0.5rem;
+    }
+  }
+  
