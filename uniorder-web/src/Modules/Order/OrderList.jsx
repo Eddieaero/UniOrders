@@ -1,7 +1,9 @@
 import {useState, useEffect } from "react";
 import NavBar from "../../Components/NavBar/NavBar";
 import Footer from "../../Components/Footer/Footer";
-import {Col, Row} from "react-bootstrap"
+import {Col, Row} from "react-bootstrap";
+import { saveAs } from 'file-saver';
+import * as XLSX from 'xlsx';
 
 const OrderList = () => {
 const [activeButton, setActiveButton] = useState("All");
@@ -49,6 +51,15 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
     setActiveButton(buttonName);
     // fetchOrders(buttonName);
   };
+
+  const handleDownload = () => {
+    const worksheet = XLSX.utils.json_to_sheet(filteredOrders);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Orders");
+    const excelBuffer = XLSX.write(workbook, { bookType: "xlsx", type: "array" });
+    const data = new Blob([excelBuffer], { type: "application/octet-stream" });
+    saveAs(data, "orders.xlsx");
+  };
   return (
 
     <div>
@@ -64,10 +75,10 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
                   <button className={`order-button ${activeButton === "Unpaid" ? "active" : ""}`} onClick={() => handleButtonClick("Unpaid")}>Unpaid({unpaidOrdersCount})</button>
                 </div>
                 <div className="col-lg-2 p-lg-1 d-flex justify-content-end">
-                  <button className="p-lg-1" style={{textAlign: "center",color:"white",borderRadius:"5px", backgroundColor: "#AE8625",width:"150px", border: "none",justifyContent: 'flex-end'}}>Download (.xlsx)</button>
+                  <button className="p-lg-1" style={{textAlign: "center",color:"white",borderRadius:"5px", backgroundColor: "#AE8625",width:"150px", border: "none",justifyContent: 'flex-end'}} onClick={handleDownload}>Download (.xlsx)</button>
                 </div>
               </div>
-              <div>
+              <div  style={{ maxHeight: "500px", overflowY: "auto" }}>
                 <div> 
                   <Row className="p-lg-2 " style={{textAlign: "center",  borderTop:"1px solid " }}>
                     <Col className="col-lg-1">Order ID</Col>

@@ -25,11 +25,13 @@ const Order = () => {
         universityName: "",
         universityCourse: "",
         sashColor: "",
-        paymentNumber: "",  
+        paymentNumber: "",
         orderId: Math.floor(Math.random() * 10000),
-        OrderDate: new Date().toISOString().split('T')[0],
+        OrderDate: new Date().toLocaleDateString('en-CA', {
+            timeZone: 'Africa/Nairobi'
+        }), // Format: YYYY-MM-DD
         OrderStatus: "Unpaid",
-    })
+    });
 
     const handleSubmit = async () => {
         try {

@@ -63,8 +63,10 @@ const NavBar = () => {
               </button>
               {isHomeOrOrders && (
                 <>
-                  <a href="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</a>
-                  <a href="/Order" className={location.pathname === '/Order' ? 'active-link' : ''}>New order</a>
+                  <NavLink to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</NavLink>
+                  <NavLink to="/Order" className={location.pathname === '/Order' ? 'active-link' : ''}>New Order</NavLink>
+                  {/* <a href="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</a> */}
+                  {/* <a href="/Order" className={location.pathname === '/Order' ? 'active-link' : ''}>New order</a> */}
                 </>
               )}
             </div>
