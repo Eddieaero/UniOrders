@@ -7,7 +7,7 @@ const Card3 = () => {
     return (
         <div className="p-lg-5" style={{ backgroundColor: "#D0B754"}}> 
             <div className=" card3Content ">
-                <div className="col-lg-12 col-sm-10 card3Uni"> 
+                <div className="col-lg-6 col-sm-10 card3Uni"> 
                     <div className="m-lg-3 p-lg-3 m-sm-3 p-sm-3"  style={{textAlign: 'left'}}>
                         <div>
                             <img src={circles}/>
@@ -15,10 +15,12 @@ const Card3 = () => {
                             <p style={{fontSize:"32px", fontWeight:"normal", marginTop:"-15px"}}>Beyond Borders</p>
                             <p style={{fontSize:"16px", fontWeight:"normal", marginTop:"-15px"}}>Collaborating universities</p>
                         </div>
-                        <img className="card3UniImage1" src={uniList1} />
-                        <p className="card3UniImageDescr">and more...</p>
                     </div>
                 </div>
+                <div className="col-lg-6 col-sm-10 card3UniImage1">
+                            <img  src={uniList1} />
+                </div>
+                <p className="card3UniImageDescr">and more...</p>
                 <div className="col-lg-6 card3Social">
                     <div className="p-lg-3" >
                         <div className="m-lg-3" style={{borderRadius:"24px", backgroundColor:"black", color:"white", width:"500px", height:"250px"}}>

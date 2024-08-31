@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "name": "University of Dar es Salaam (UDSM)"
+    },
+    {
+        "id": 2,
+        "name": "Sokoine University of Agriculture (SUA)"
+    },
+    {
+        "id": 3,
+        "name": "Open University of Tanzania (OUT)"
+    },
+    {
+        "id": 4,
+        "name": "State University of Zanzibar (SUZA)"
+    },
+    {
+        "id": 5,
+        "name": "Mzumbe University (MU)"
+    },
+    {
+        "id": 6,
+        "name": "Nelson Mandela African Institution of Science and Technology (NM-AIST)"
+    },
+    {
+        "id": 7,
+        "name": "Muhimbili University of Health and Allied Sciences (MUHAS)"
+    },
+    {
+        "id": 8,
+        "name": "Ardhi University (ARU)"
+    },
+    {
+        "id": 9,
+        "name": "University of Dodoma (UDOM)"
+    },
+    {
+        "id": 10,
+        "name": "Mbeya University of Science and Technology (MUST)"
+    },
+    {
+        "id": 11,
+        "name": "Moshi Cooperative University (MoCU)"
+    },
+    {
+        "id": 12,
+        "name": "Mwalimu Julius K. Nyerere University of Agriculture and Technology (MJNUAT)"
+    },
+    {
+        "id": 13,
+        "name": "Kairuki University (KU), formerly HKMU"
+    },
+    {
+        "id": 14,
+        "name": "Abdulrahman Al-Sumait University (SUMAIT)"
+    },
+    {
+        "id": 15,
+        "name": "St. Augustine University of Tanzania (SAUT)"
+    },
+    {
+        "id": 16,
+        "name": "Zanzibar University (ZU)"
+    },
+    {
+        "id": 17,
+        "name": "Tumaini University Makumira (TUMA)"
+    },
+    {
+        "id": 18,
+        "name": "Aga Khan University (AKU)"
+    },
+    {
+        "id": 19,
+        "name": "Catholic University of Health and Allied Sciences (CUHAS)"
+    },
+    {
+        "id": 20,
+        "name": "University of Arusha (UoA)"
+    },
+    {
+        "id": 21,
+        "name": "St. Joseph University in Tanzania (SJUIT)"
+    },
+    {
+        "id": 22,
+        "name": "Teofilo Kisanji University (TEKU)"
+    },
+    {
+        "id": 23,
+        "name": "Muslim University of Morogoro (MUM)"
+    },
+    {
+        "id": 24,
+        "name": "Mwenge Catholic University (MWECAU)"
+    },
+    {
+        "id": 25,
+        "name": "University of Iringa (UoI)"
+    },
+    {
+        "id": 26,
+        "name": "St. John's University of Tanzania (SJUT)"
+    },
+    {
+        "id": 27,
+        "name": "Kampala International University in Tanzania (KIUT)"
+    },
+    {
+        "id": 28,
+        "name": "United African University of Tanzania (UAUT)"
+    },
+    {
+        "id": 29,
+        "name": "Ruaha Catholic University (RUCU)"
+    },
+    {
+        "id": 30,
+        "name": "Mwanza University (MzU)"
+    },
+    {
+        "id": 31,
+        "name": "Catholic University of Mbeya (CUoM), formerly CUCoM"
+    },
+    {
+        "id": 32,
+        "name": "Dar es Salaam Tumaini University (DarTU), formerly TUDARCo"
+    },
+    {
+        "id": 33,
+        "name": "Rabininsia Memorial University of Health and Allied Sciences (RMUHAS)"
+    },
+    {
+        "id": 34,
+        "name": "University of Medical Sciences and Technology (UMST)"
+    },
+    {
+        "id": 35,
+        "name": "Dar es Salaam University College of Education (DUCE)"
+    },
+    {
+        "id": 36,
+        "name": "Mkwawa University College of Education (MUCE)"
+    },
+    {
+        "id": 37,
+        "name": "Mzumbe University – Dar es Salaam Campus College (MU – Dar es Salaam Campus College)"
+    },
+    {
+        "id": 38,
+        "name": "Mzumbe University – Mbeya Campus College (MU – Mbeya Campus College)"
+    },
+    {
+        "id": 39,
+        "name": "Mbeya College of Health and Allied Sciences (MCHAS)"
+    },
+    {
+        "id": 40,
+        "name": "Mbeya University of Science and Technology – Rukwa Campus College (MUST – RC)"
+    },
+    {
+        "id": 41,
+        "name": "Sokoine University of Agriculture – Mizengo Pinda Campus College (SUA – MPC)"
+    },
+    {
+        "id": 42,
+        "name": "Kilimanjaro Christian Medical University College (KCMUCo)"
+    },
+    {
+        "id": 43,
+        "name": "Stefano Moshi Memorial University College (SMMUCo)"
+    },
+    {
+        "id": 44,
+        "name": "Archbishop Mihayo University College of Tabora (AMUCTA)"
+    },
+    {
+        "id": 45,
+        "name": "Jordan University College (JUCo)"
+    },
+    {
+        "id": 46,
+        "name": "St. Francis University College of Health and Allied Sciences (SFUCHAS)"
+    },
+    {
+        "id": 47,
+        "name": "Stella Maris Mtwara University College (STeMMUCo)"
+    },
+    {
+        "id": 48,
+        "name": "Marian University College (MARUCo)"
+    },
+    {
+        "id": 49,
+        "name": "St. Joseph University College of Health and Allied Sciences (SJCHAS)"
+    },
+    {
+        "id": 50,
+        "name": "Institute of Marine Sciences (IMS)"
+    },
+    {
+        "id": 51,
+        "name": "Kizumbi Institute of Cooperative Business Education (KICoB)"
+    },
+    {
+        "id": 52,
+        "name": "St. Augustine University of Tanzania, Dar es Salaam Centre"
+    },
+    {
+        "id": 53,
+        "name": "Stefano Moshi Memorial University College, Mwika Centre"
+    },
+    {
+        "id": 54,
+        "name": "St. Augustine University of Tanzania, Arusha Centre"
+    }
+]

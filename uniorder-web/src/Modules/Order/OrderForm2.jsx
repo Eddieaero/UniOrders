@@ -30,7 +30,7 @@ const OrderForm2 = ({formData, setFormData, errors, setErrors}) => {
                         setErrors(prev => ({ ...prev, universityCourse: "" }));
                     }}
                     style={{ borderRadius: "5px", border: "none", borderBottom: "2px solid #000" }}/>
-                {errors.universityCourse && <p className="mx-4 my-1 error" style={{alignItems: "center", display: "flex", padding: "5px", borderRadius: "5px", border: "1px solid #f5c6cb", color: "#721c24", backgroundColor: "#f8d7da"}}>{errors.universityCourse}</p>}
+                    {errors.universityCourse && <p className="mx-4 my-1 error" style={{alignItems: "center", display: "flex", padding: "5px", borderRadius: "5px", border: "1px solid #f5c6cb", color: "#721c24", backgroundColor: "#f8d7da"}}>{errors.universityCourse}</p>}
                 </div>
             </div>
             

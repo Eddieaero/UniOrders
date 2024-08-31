@@ -1,8 +1,6 @@
 // import React from "react";
 import { useState } from "react";
 
-
-
 const OrderForm3 = ({formData, setFormData, errors, setErrors }) => {
     const [selectedColor, setSelectedColor] = useState(formData.sashColor || '');
     // const [activeButton, setActiveButton] = useState();
@@ -33,6 +31,9 @@ const OrderForm3 = ({formData, setFormData, errors, setErrors }) => {
                     ></button>
                     <button className={`sash-button m-lg-1 mx-1 sash-color-black ${selectedColor === "black" ? "active" : ""}`}
                             onClick={() => handleButtonClick('black')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-baby-pink ${selectedColor === "baby-pink" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('baby-pink')}
                     ></button>
                 </div>
                 {errors.sashColor && <p className="error" style={{alignItems: "center", display: "flex", padding: "5px", borderRadius: "5px", border: "1px solid #f5c6cb", color: "#721c24", backgroundColor: "#f8d7da"}}>{errors.sashColor}</p>}
