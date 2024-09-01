@@ -1,5 +1,3 @@
-// import React from "react";
-// import { useEffect } from "react";
 import { useLocation } from "react-router";
 import NavBar from "../../Components/NavBar/NavBar";
 import { useNavigate } from "react-router";
@@ -13,8 +11,6 @@ import Swal from 'sweetalert2';
     const navigate = useNavigate();
     const location = useLocation();
     const {formData} = location.state;
-
-
     const handlePayment = async () => {
         try {
             await axios.put(`http://localhost:5000/orders/${formData.orderId}/status`, {
@@ -70,17 +66,17 @@ import Swal from 'sweetalert2';
                         <h4>Order Details</h4>
                     </div>
                     <div className="flex" style={{ display: "flex", justifyContent: "space-evenly", width: "auto" }}>
-                        <div className="data-column">
-                            <p>Order ID:<p className="labels">{formData.orderId}</p></p>
-                            <p>First Name:<p className="labels">{formData.firstName}</p></p>
-                            <p>Last Name: <p className="labels">{formData.lastName}</p></p>
-                            <p>Sash Color: <p className="labels">{formData.sashColor}</p></p>
+                        <div className="data-column col-sm-6" style={{}}>
+                            <p>Order ID:<p className="labels col-sm-6">{formData.orderId}</p></p>
+                            <p>First Name:<p className="labels col-sm-8">{formData.firstName}</p></p>
+                            <p>Last Name: <p className="labels col-sm-8">{formData.lastName}</p></p>
+                            <p>Sash Color: <p className="labels col-sm-6">{formData.sashColor}</p></p>
                         </div>
-                        <div className="data-column ">
-                            <p>University Name: <p className="labels">{formData.universityName}</p></p>
-                            <p>University Course: <p className="labels">{formData.universityCourse}</p></p>
-                            <p>Payment Number: <p className="labels">{formData.paymentNumber}</p></p>
-                            <p>Payment Amount: <p className="labels">20,000/=</p></p>
+                        <div  className="data-column col-sm-6" style={{}}>
+                            <p>University Name: <p className="labels col-sm-8">{formData.universityName}</p></p>
+                            <p>University Course: <p className="labels col-sm-8">{formData.universityCourse}</p></p>
+                            <p>Payment Number: <p className="labels col-sm-6">{formData.paymentNumber}</p></p>
+                            <p>Payment Amount: <p className="labels col-sm-6">20,000/=</p></p>
                         </div>
                     </div>
                     <div>

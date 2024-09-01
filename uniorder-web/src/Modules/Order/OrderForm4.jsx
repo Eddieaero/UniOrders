@@ -1,5 +1,6 @@
 // import react from 'react';
-
+import { FormGroup, InputGroup } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
 
 const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {  
     const validatePhoneNumber = (number) => {
@@ -12,14 +13,20 @@ const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {
             <h1>Payment Info</h1>
             <div className="form-group m-lg-1 flex">
             <label>Enter your Payment Number</label>
-            <input type="text"
-                value={formData.paymentNumber}
-                onChange={(event) => {
-                    setFormData({ ...formData, paymentNumber: event.target.value });
-                    setErrors(prev => ({ ...prev, paymentNumber: "" }));
-                }}
-                style={{ borderRadius: "5px", border: "none", borderBottom: "2px solid #000" }}/>
-            {errors.paymentNumber && <p className="error" style={{alignItems: "center", display: "flex", padding: "5px", borderRadius: "5px", border: "1px solid #f5c6cb", color: "#721c24", backgroundColor: "#f8d7da"}}>{errors.paymentNumber}</p>}
+            <FormGroup>
+             <InputGroup>
+                <Form.Control
+                    type="text"
+                    value={formData.paymentNumber}
+                    onChange={(event) => {
+                        setFormData({ ...formData, paymentNumber: event.target.value });
+                        setErrors(prev => ({ ...prev, paymentNumber: "" }));
+                    }}
+                    className="form-control"
+                />
+             </InputGroup>
+            </FormGroup>
+            {errors.paymentNumber && <p className="error" >{errors.paymentNumber}</p>}
             </div>
         </div>
     );
