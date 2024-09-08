@@ -2,7 +2,6 @@ import whitelogo from "../../assets/logo white.svg";
 import {WhatsappLogo,TiktokLogo, InstagramLogo} from "phosphor-react";
 
 const Footer = () => {
-
  return (
     <div className="" style={{backgroundColor:"black"}} >
       <div>

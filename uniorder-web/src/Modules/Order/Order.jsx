@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import {useNavigate} from "react-router-dom";
+import {v4 as uuidv4 } from "uuid";
 import Footer from "../../Components/Footer/Footer";
 import NavBar from "../../Components/NavBar/NavBar";
 import OrderForm1 from "./OrderForm1";
@@ -13,6 +14,16 @@ import tag3 from "../../assets/nametag3.svg";
 import tag4 from "../../assets/nametag4.svg";
 
 const Order = () => {
+    const generateSimpleUUID = () => {
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let result = '';
+        for (let i = 0; i < 6; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            result += characters[randomIndex];
+        }
+        return result;
+    };
+
     const [page, setPage] = useState(0);
     const [errors, setErrors] = useState({});
     const [message, setMessage] = useState({ text: "", type: "" }); // New state for messages
@@ -25,13 +36,17 @@ const Order = () => {
         universityName: "",
         universityCourse: "",
         sashColor: "",
+        channel: "",
         paymentNumber: "",
-        orderId: Math.floor(Math.random() * 10000),
+        orderId: generateSimpleUUID(),
         OrderDate: new Date().toLocaleDateString('en-CA', {
             timeZone: 'Africa/Nairobi'
         }), // Format: YYYY-MM-DD
+        amount: 20000,
         OrderStatus: "Unpaid",
     });
+
+
 
     const handleSubmit = async () => {
         try {
@@ -41,6 +56,7 @@ const Order = () => {
                 }
             });
             navigate("/payment", { state: { formData } });
+            console.log(formData);
             setMessage({
                 text: "Congratulations! Your order is saved.",
                 type: "success"
@@ -103,13 +119,22 @@ const Order = () => {
             } else {
                 newErrors.sashColor = "";
             }
-        } else if (currentPage === 3) { // OrderForm4
-            const phoneRegex = /^(07|06)[0-9]{8}$/;
+        
+            } else if (currentPage === 3) { // OrderForm4
+            // const phoneRegex = /^(\+2556|\+2557)[0-9]{9}$/;
+            const phoneRegex = /^(\+2556|\+2557)[0-9]{7}$/;
+            // const phoneRegex = /^(07|06)[0-9]{8}$/;
+            if (!formData.channel) {
+                newErrors.channel = "Your mobile network is required.";
+                isValid = false;
+            } else {
+                newErrors.channel = "";
+            }
             if (!formData.paymentNumber) {
                 newErrors.paymentNumber = "Payment number is required.";
                 isValid = false;
             } else if (!phoneRegex.test(formData.paymentNumber)) {
-                newErrors.paymentNumber = "Phone number is Invalid.";
+                newErrors.paymentNumber = "Phone number is Invalid. It should be in the format +255XXXXXXXXX.";
                 isValid = false;
             } else {
                 newErrors.paymentNumber = "";

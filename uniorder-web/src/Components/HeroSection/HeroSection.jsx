@@ -23,25 +23,24 @@ const HeroSection = () => {
         <div className="backImage" style={{ backgroundImage: `url(${heroBackground})`}}>
             <div className="m-lg-3 heroContent" >
                 <div className='col-lg-6 col-sm-10 p-lg-5 heroMainText' >
-                    <div className="m-lg-5" style={{ textAlign: 'left' }}>
+                    <div className="m-lg-5 m-sm-1" style={{ textAlign: 'left' }}>
                         <p className='heroText'> 
                             Let’s
                         </p>
                         <p style={{marginTop:"-10px"}}>Celebrate </p>
-                        <span className=''> We have come a long way </span>
+                        <span  className='tagLine'> We have come a long way </span>
                     </div>
                     <div className="flex ">
-                        <div className='m-lg-3' style={{display:"flex", textAlign: "center", justifyContent:"space-evenly"}}>
+                        <div className='m-lg-3 m-sm-3' style={{display:"flex", textAlign: "center", justifyContent:"space-evenly"}}>
                             <Button bg="light" 
                                     data-bs-theme="light"
                                     className='cta2Button d-md-flex d-none'
                                     href="https://wa.me/255784346484"   
                                     style={{ backgroundColor:"white", color:"black" ,border:"2px solid black" }}>
-                            Contact Support team
+                                    Contact Support team
                             </Button> 
                             <Button bg="dark" 
                                     data-bs-theme="dark"
-                                    
                                     className='cta1Button'
                                     style={{ backgroundColor:"black",border:"none" }}>
                             <NavLink to="/order" style={{textDecoration:"none", color:"white"}}>Order Sash Now</NavLink>

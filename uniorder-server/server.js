@@ -1,10 +1,8 @@
 const mysql = require('mysql2');
-// import mysql from 'mysql2';
 const express = require("express");
 const cors = require("cors");
 const app = express();
-
-
+const { initiatePayment } = require('./temboApi');
 
 const connection = mysql.createConnection({
     host: 'localhost',
@@ -15,6 +13,19 @@ const connection = mysql.createConnection({
 
 app.use(cors());
 app.use(express.json());
+
+
+app.post("/initiate-payment", async (req, res) => {
+    const { msisdn, channel, amount, narration, transactionRef, transactionDate, callbackUrl } = req.body;
+
+    try {
+        const paymentResponse = await initiatePayment( msisdn, channel, amount, narration, transactionRef, transactionDate, callbackUrl);
+        res.json(paymentResponse);
+    } catch (error) {
+        console.error('Payment initiation failed:', error);
+        res.status(500).send('Payment initiation failed');
+    }
+});
 
 app.get("/orders-list", (req, res) => {    
     const sql = 'SELECT * FROM orders';
@@ -31,11 +42,6 @@ app.get("/orders-list", (req, res) => {
 
 app.post("/orders", (req, res) => {
     const { orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus  } = req.body;
-    // const orderId = Math.floor(Math.random() * 10000);
-    // const OrderDate = new Date().toLocaleDateString();
-    // const OrderStatus = "Unpaid";
-
-    // const sql = 'INSERT INTO orders (firstName, lastName, universityName, universityCourse, sashColor, paymentNumber) VALUES (?, ?, ?, ?, ?, ?)';
     const formattedOrderDate = new Date(OrderDate).toISOString().split('T')[0];
     const sql = 'INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
     const values = [ orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, formattedOrderDate, OrderStatus];
@@ -70,15 +76,6 @@ app.put("/orders/:orderId/status", (req, res) => {
         res.status(200).send('Order status updated successfully');
     });
 });
-
-
-
-// app.get("/", (req, res) => {
-//     res.json({ message: "Welcome to the Uniorder API" });   
-//     // res.send("Hello World");
-// });
-
-
 
 
 app.listen(5000, () => {

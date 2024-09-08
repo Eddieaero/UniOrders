@@ -1,20 +1,16 @@
-// import 'react' from react;
 import {useState, useEffect } from "react";
 import NavBar from "../../Components/NavBar/NavBar";
 import Footer from "../../Components/Footer/Footer";
 import {Col, Row} from "react-bootstrap"
-
 
 const OrderList = () => {
 const [activeButton, setActiveButton] = useState("All");
 const [orders, setOrders] = useState([]);
 const [filteredOrders, setFilteredOrders] = useState([]);
 const pollingInterval = 5000; // Poll every 5 seconds
-
 const allOrdersCount = orders.length;
 const paidOrdersCount = orders.filter((order) => order.orderStatus === "Paid").length;
 const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid").length;
-
 
   useEffect(() => {
     fetchOrders("All");
@@ -49,21 +45,12 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
     setFilteredOrders(filtered); // Update the filtered orders based on the active filter
   };
 
-  // let filteredOrders = allOrders;
-  // if (filter === "Paid") {
-  //   filteredOrders = allOrders.filter(order => order.Status === "Paid");
-  // } else if (filter === "Unpaid") {
-  //   filteredOrders = allOrders.filter(order => order.Status === "Unpaid");
-  // }
-  // setOrders(filteredOrders);
-  // };
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
     // fetchOrders(buttonName);
   };
 
   return (
-
     <div>
       <NavBar/>
         <div className="p-lg-2 flex">
@@ -80,7 +67,6 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
                   <button className="p-lg-1" style={{textAlign: "center",color:"white",borderRadius:"5px", backgroundColor: "#AE8625",width:"150px", border: "none",justifyContent: 'flex-end'}}>Download (.xlsx)</button>
                 </div>
               </div>
-              
               <div>
                 <div> 
                   <Row className="p-lg-2 " style={{textAlign: "center",  borderTop:"1px solid " }}>

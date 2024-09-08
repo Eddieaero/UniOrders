@@ -1,6 +1,4 @@
-// import React from "react";
 import { useState } from "react";
-
 
 const OrderForm3 = ({formData, setFormData, errors, setErrors }) => {
     const [selectedColor, setSelectedColor] = useState(formData.sashColor || '');

@@ -8,9 +8,6 @@ const OrderForm1 = ({formData, setFormData, errors, setErrors}) => {
       <h3>Tell us your full name and available phone number</h3>
       <div>
         <div className="form-group m-4">
-          {/* <div className="form-group m-1 flex">
-          <label className="p-lg-2">First Name</label>
-          </div> */}
           <div>
             <FormGroup>
               <InputGroup>
@@ -30,9 +27,6 @@ const OrderForm1 = ({formData, setFormData, errors, setErrors}) => {
           </div> 
         </div>   
         <div className="form-group m-4">
-          {/* <div className="form-group m-lg-1 flex">
-            <label className="p-lg-2">Last Name</label>
-          </div> */}
           <div>
           <FormGroup>
             <InputGroup>
@@ -52,9 +46,6 @@ const OrderForm1 = ({formData, setFormData, errors, setErrors}) => {
           </div>
         </div>
         <div className="form-group m-4">
-          {/* <div className="form-group m-lg-1 flex">
-              <label className="p-lg-2">phone No</label>
-          </div> */}
           <div>
           <FormGroup>
             <InputGroup>

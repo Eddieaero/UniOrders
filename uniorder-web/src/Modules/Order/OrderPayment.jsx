@@ -6,46 +6,59 @@ import axios from "axios";
 import tag1 from "../../assets/nametag1.svg";
 import Swal from 'sweetalert2';
 
-// const OrderPayment = ({formData, setFormData}) => {
     const OrderPayment = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const {formData} = location.state;
+
     const handlePayment = async () => {
         try {
-            await axios.put(`http://localhost:5000/orders/${formData.orderId}/status`, {
-                OrderStatus: "Paid"
+            const paymentResponse = await axios.post('http://localhost:5000/initiate-payment', {
+                msisdn: formData.paymentNumber,
+                channel: formData.channel,
+                amount: 20000,
+                narration: `Payment for Order ${formData.orderId}`,
+                transactionRef: formData.orderId,
+                transactionDate: new Date().toISOString().slice(0, 19).replace('T', ' '),
+                callbackUrl: 'http://localhost:5000/payment-callback' // You can adjust this to your actual callback URL
             });
-            Swal.fire({
+
+            if (paymentResponse.data.statusCode === "PENDING_ACK") {
+                await axios.put(`http://localhost:5000/orders/${formData.orderId}/status`, {
+                    OrderStatus: "Paid"
+                });
+                alert("Payment successful! Order status has been updated.");
+                Swal.fire({
                 position: "center",
                 icon: "success",
                 backdrop: 'swal2-backdrop-show',
                 title: "payment successful",
                 showConfirmButton: true,
                 // timer: 1500
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    navigate("/");
-                }
-            });
-                
-            // alert("Payment successful! Order status has been updated.");
-
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        navigate("/");
+                    }
+                });
+            } else {
+                alert("Payment initiation failed. Please try again.");
+            }
         } catch (error) {
-            console.error("Error updating order status:", error);
-            // alert("There was an issue processing the payment.");
-            Swal.fire({
+            console.error("Error during payment process:", error);
+            console.log
+            alert("There was an issue processing the payment.");
+                Swal.fire({
                 position: "center",
                 icon: "error",
                 backdrop: 'swal2-backdrop-show',
                 title: "Transaction failed",
                 showConfirmButton: true,
                 footer: 'Let\'s make a new order',
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    navigate("/order");
-                }
-            });
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        navigate("/order");
+                    }
+                });
         }
     };
 

@@ -27,8 +27,6 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
   const fetchOrders = async () => {
     try {
       const response = await fetch(`http://localhost:5000/orders-list`);
-      // const response = await fetch(`http://localhost:5000/orders-list?filter=${filter}`);
-      // const response = await fetch(`http://localhost:5173/src/Modules/Order/orders.json?filter=${filter}`);
       const data = await response.json();
       setOrders(data);
     } catch (error) {
@@ -38,18 +36,16 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
 
   const applyFilter = () => {
     let filtered = orders;
-
     if (activeButton === "Paid") {
       filtered = orders.filter((order) => order.orderStatus === "Paid");
     } else if (activeButton === "Unpaid") {
       filtered = orders.filter((order) => order.orderStatus === "Unpaid");
     }
-    setFilteredOrders(filtered); // Update the filtered orders based on the active filter
+    setFilteredOrders(filtered); 
   };
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
-    // fetchOrders(buttonName);
   };
 
   const handleDownload = () => {
@@ -61,7 +57,6 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
     saveAs(data, "orders.xlsx");
   };
   return (
-
     <div>
       <NavBar/>
         <div className="p-lg-2 flex">
@@ -80,30 +75,28 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
               </div>
               <div  style={{ maxHeight: "500px", overflowY: "auto" }}>
                 <div> 
-                  <Row className="p-lg-2 " style={{textAlign: "center",  borderTop:"1px solid " }}>
-                    <Col className="col-lg-1">Order ID</Col>
-                    <Col className="col-lg-2">Name</Col>
-                    <Col className="col-lg-2">University</Col>
-                    <Col className="col-lg-2">Course</Col>
-                    <Col className="col-lg-1" style={{textAlign: "right"}}>Color</Col>
-                    <Col className="col-lg-2">Payment number</Col>
-                    <Col className="col-lg-1" style={{textAlign: "left"}}>Action</Col>
-                    <Col className="col-lg-1" style={{textAlign: "left"}}>Status</Col>
+                  <Row className="p-lg-2 p-sm-3 " style={{textAlign: "center",  borderTop:"1px solid " }}>
+                    <Col className="col-lg-1 col-sm-1 d-none d-md-flex">Order ID</Col>
+                    <Col className="col-lg-2 col-sm-1">Name</Col>
+                    <Col className="col-lg-2 col-sm-1">University</Col>
+                    <Col className="col-lg-2 col-sm-1 d-none d-md-flex">Course</Col>
+                    <Col className="col-lg-1 col-sm-1" style={{textAlign: "right"}}>Color</Col>
+                    <Col className="col-lg-2 col-sm-1 d-none d-md-flex">Payment number</Col>
+                    <Col className="col-lg-1 col-sm-1 d-none d-md-flex" style={{textAlign: "left"}}>Action</Col>
+                    <Col className="col-lg-1 col-sm-1" style={{textAlign: "left"}}>Status</Col>
                   </Row>
                 </div>
                 {filteredOrders.length > 0 ? (
                 filteredOrders.map((order, index) => (
-                // {orders.length > 0 ? (
-                // orders.map((order, index) => (
                   <div key={index} className="p-1 m-1 order-item" style={{ backgroundColor: "white", borderRadius: "15px", display: "inline-block", margin: "0px 0", gap: "15px"  }}>
                     <Row className="m-lg-1 p-lg-1 " style={{ textAlign: "left", gap: "10px" }}>
-                      <Col className="col-lg-1">{order.orderId}</Col>
+                      <Col className="col-lg-1 d-none d-md-flex">{order.orderId}</Col>
                       <Col className="col-lg-2">{`${order.firstName} ${order.lastName}`}</Col>
                       <Col className="col-lg-2">{order.universityName}</Col>
-                      <Col className="col-lg-2">{order.universityCourse}</Col>
+                      <Col className="col-lg-2 d-none d-md-flex">{order.universityCourse}</Col>
                       <Col className="col-lg-1">{order.sashColor}</Col>
-                      <Col className="col-lg-1">{order.paymentNumber}</Col>
-                      <Col className="col-lg-1" style={{textAlign: "right"}}>{order.Action}</Col>
+                      <Col className="col-lg-1 d-none d-md-flex">{order.paymentNumber}</Col>
+                      <Col className="col-lg-1 d-none d-md-flex" style={{textAlign: "right"}}>{order.Action}</Col>
                       <Col className="col-lg-1" style={{textAlign: "right"}}>{order.orderStatus}</Col>
                     </Row>
                   </div>

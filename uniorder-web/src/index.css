@@ -693,7 +693,7 @@ body {
     .sidenav .closebtn {
       position: absolute;
       top: 0;
-      right: 0px;
+      right: 10px;
       font-size: 36px;
       margin-left: 0px;
       margin-top: -10px;
@@ -852,16 +852,21 @@ body {
       font-size: 50px;
       font-weight:normal;
     }
-    .heroMainText span{
+    /* .heroMainText div span{
        font-weight: lighter;
        font-size: 20px;
-      margin-top: -30px;
-    }
+      margin-top: 0px;
+    } */
     .heroText{
        font-weight:normal;
        font-size:50px;
        padding: 0px;
       margin: 0px;
+    }
+    .tagLine{
+      margin-top: -10px;
+      font-weight: lighter;
+      font-size: 20px;
     }
     .card1{
       background-color: black; 
@@ -943,17 +948,11 @@ body {
       flex-direction: column;
       display: flex;
       padding: 5%;
-      /* margin: 5%; */
-      /* padding-top: 100px;
-      padding-bottom: 50px; */
     }
     .card3Uni{
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    /* .card3Uni img{
-      width:  ;
-    } */
     .card3UniImage{
       display: none;
       width: 100%;
@@ -961,13 +960,12 @@ body {
       margin-left: 18px;
     }
     .card3UniImage1{
-      /* display: block; */
       display: flex;
-      width: 70%;
+      width: 100%;
       height: auto;
       margin-bottom: 30px;
-      /* margin-left: 180px; */
       object-fit: cover;
+      overflow-x: scroll;
     }
     .card3UniImageDescr{
       text-align: center;
@@ -978,18 +976,15 @@ body {
     }
     .data-column{
       width: auto;
-      /* display: flex-start; */
       height: max-content;
       margin: 10px;
       overflow-y:visible; 
       overflow-x:visible; 
-      /* display: -ms-inline-flexbox; */
       text-align: left;
       flex: 1;
       max-width: 50%; 
     }
     .form-Input{
-      /* width: 10px; */
       align-items: center;
       display: flex;
       justify-content: center;
@@ -1005,7 +1000,6 @@ body {
       justify-content: center;
       padding: 30px;
       height: auto;
-      /* margin: 20px; */
       background-color: black;
     }
     .footerimg{
@@ -1015,14 +1009,11 @@ body {
       width: auto;
       display: inline-block;
       color: #bdbcbc;
-      
-      /* height: 70px; */
       height: auto;
     }
     .footerline{
       background-color: black;
       color: white;
-      /* padding-bottom: 20px; */
       margin-bottom: 20px;
 
     }
@@ -1035,7 +1026,7 @@ body {
       position: relative;
       border: 1px solid #AE8625;  
       display: flex; 
-      border-radius: 48px; 
+      border-radius: 30px; 
       width: 80%;
       height: 35rem;
       justify-content: center;
@@ -1070,8 +1061,8 @@ body {
       height: 20%;
       width: 100%;
       overflow: hidden;
-      border-top-left-radius: 48px;  
-      border-top-right-radius: 48px;
+      border-top-left-radius: 30px;  
+      border-top-right-radius: 30px;
     }
     .tag-image{
       display: flex;

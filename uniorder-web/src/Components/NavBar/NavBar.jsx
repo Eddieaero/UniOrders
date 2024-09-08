@@ -15,8 +15,8 @@ const NavBar = () => {
   const toggleSidenav = () => {
     setIsOpen(!isOpen);
   };
-    return (
 
+  return (
         <div className=' flex nav-style'>
         <Navbar  className='' data-bs-theme="dark" >
         {/* <Navbar bg="dark" className='navbar' data-bs-theme="dark" style={{width:"100%", height:"5%", padding:"0px"}} > */}
@@ -50,9 +50,6 @@ const NavBar = () => {
                             <NavDropdown.Item className={location.pathname === "/Order" ? 'active-link' : ''}>
                               <NavLink style={{textDecoration:"none"}} to="/Order">New Order</NavLink>
                             </NavDropdown.Item>
-                            {/* <NavDropdown.Item className={location.pathname === "/Order-List" ? 'active-link' : ''}>
-                              <NavLink style={{textDecoration:"none"}} to="/Order-List">Order List</NavLink>
-                            </NavDropdown.Item> */}
                         </NavDropdown>
                     </>
                 )}
@@ -63,10 +60,8 @@ const NavBar = () => {
               </button>
               {isHomeOrOrders && (
                 <>
-                  <NavLink to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</NavLink>
+                  <NavLink style={{textDecoration:"none"}} to="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</NavLink>
                   <NavLink to="/Order" className={location.pathname === '/Order' ? 'active-link' : ''}>New Order</NavLink>
-                  {/* <a href="/" className={location.pathname === '/' ? 'active-link' : ''}>Home</a> */}
-                  {/* <a href="/Order" className={location.pathname === '/Order' ? 'active-link' : ''}>New order</a> */}
                 </>
               )}
             </div>

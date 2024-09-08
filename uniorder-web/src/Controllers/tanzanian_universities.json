@@ -214,5 +214,37 @@
     {
         "id": 54,
         "name": "St. Augustine University of Tanzania, Arusha Centre"
+    },
+    {
+        "id": 55,
+        "name": "Dar es salaam Institute of Technology (DIT)"
+    },
+    {
+        "id": 56,
+        "name": "Institute of Finance Management (IFM)"
+    },
+    {
+        "id": 57,
+        "name": "Tanzania Institute of Accountancy (TIA)"
+    },
+    {
+        "id": 58,
+        "name": "College of Business Education (CBE)"
+    },
+    {
+        "id": 59,
+        "name": "National Institute of Transport (NIT)"
+    },
+    {
+        "id": 60,
+        "name": "Institute of Accountancy of Arusha"
+    },
+    {
+        "id": 61,
+        "name": "Institute of Social Work (ISW)"
+    },
+    {
+        "id": 62,
+        "name": "Mwalimu Nyerere Memorial Academy"
     }
 ]
