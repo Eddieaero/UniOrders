@@ -1,95 +1,102 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FormGroup, InputGroup } from "react-bootstrap";
-import {DropdownButton, Dropdown} from "react-bootstrap";
 import Form from "react-bootstrap/Form";
-import mobileNetworks from "../../Controllers/mobile_networks.json";
+import { parsePhoneNumberFromString } from 'libphonenumber-js';
 
-const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {
-    const [searchTerm, setSearchTerm] = useState("");
-    const [filteredNetworks, setFilteredNetworks] = useState([]);
-    const [showSearchResults, setShowSearchResults] = useState(false);
+const providerToChannelMap = {
+    "Airtel": "TZ-AIRTEL-C2B",
+    "Tigo": "TZ-TIGO-C2B",
+    "Halotel": "TZ-HALOTEL-C2B"
+};
 
-    useEffect(() => {
-        // Filter the mobile networks based on the search term
-        if (searchTerm) {
-            const results = mobileNetworks.filter(network =>
-                network.name.toLowerCase().includes(searchTerm.toLowerCase())
-            );
-            setFilteredNetworks(results);
-            setShowSearchResults(true);
-        } else {
-            setFilteredNetworks([]);
-            setShowSearchResults(false);
-        }
-    }, [searchTerm]);
- 
-    const handleSelectNetwork = (networkValue) => {
-        setFormData({ ...formData, channel: networkValue });
-        setErrors(prev => ({ ...prev, channel: "" }));
-        setShowSearchResults(false);
-        setSearchTerm("");  // Reset the search term after selection
-    };
+const prefixToProviderMap = {
+    "68": "Airtel",
+    "69": "Airtel",
+    "78": "Airtel",
+    "71": "Tigo",
+    "65": "Tigo",
+    "67": "Tigo",
+    "62": "Halotel",
+    "77": "Halotel"
+};
+
+const OrderForm4 = ({ formData, setFormData, errors, setErrors }) => {
+    const [detectedProvider, setDetectedProvider] = useState("");
 
     const formatPhoneNumber = (number) => {
-        let sanitizedNumber = number.replace(/\D/g, '');
+        let sanitizedNumber = number.replace(/\D/g, ''); // Remove all non-numeric characters
         if (!sanitizedNumber.startsWith('255')) {
-            // Remove leading zero if present
             if (sanitizedNumber.startsWith('0')) {
-                sanitizedNumber = sanitizedNumber.substring(1);
+                sanitizedNumber = sanitizedNumber.substring(1); // Remove leading zero
             }
-            sanitizedNumber = `255${sanitizedNumber}`;
+            sanitizedNumber = `255${sanitizedNumber}`; // Add country code
         }
-
         return `+${sanitizedNumber}`;
+    };
+
+    const detectProvider = (number) => {
+        const parsedNumber = parsePhoneNumberFromString(number, 'TZ');
+        if (!parsedNumber) return null;
+
+        const nationalNumber = parsedNumber.nationalNumber;
+        const prefix = nationalNumber.substring(0, 2);
+
+        return prefixToProviderMap[prefix] || null;
     };
 
     const handlePaymentNumberChange = (event) => {
         const inputNumber = event.target.value;
         const formattedNumber = formatPhoneNumber(inputNumber);
 
-        setFormData({ ...formData, paymentNumber: formattedNumber });
-        setErrors(prev => ({ ...prev, paymentNumber: "" }));
+        const parsedNumber = parsePhoneNumberFromString(formattedNumber, 'TZ');
+        if (parsedNumber) {
+            const nationalNumber = parsedNumber.nationalNumber;
+
+            // Check if the national number has exactly 9 digits
+            if (nationalNumber.length !== 9) {
+                setDetectedProvider("");
+                setFormData({ ...formData, paymentNumber: formattedNumber, channel: "" });
+                setErrors(prev => ({ ...prev, paymentNumber: "invalid." }));
+                return; // Exit early if validation fails
+            }
+
+            const provider = detectProvider(formattedNumber);
+
+            if (provider && providerToChannelMap[provider]) {
+                setDetectedProvider(provider);
+                setFormData({ ...formData, paymentNumber: formattedNumber, channel: providerToChannelMap[provider] });
+                setErrors(prev => ({ ...prev, paymentNumber: "" }));
+            } else {
+                setDetectedProvider("");
+                setFormData({ ...formData, paymentNumber: formattedNumber, channel: "" });
+                setErrors(prev => ({ ...prev, paymentNumber: "We support Airtel, Tigo, and Halotel only. Please change your payment number." }));
+            }
+        } else {
+            setFormData({ ...formData, paymentNumber: formattedNumber, channel: "" });
+            setErrors(prev => ({ ...prev, paymentNumber: "Invalid phone number format." }));
+        }
     };
-    
+
     return (
         <div>
             <h1>Payment Info</h1>
-            <div className="form-group">
-              <div className="form-group my-4">
-              <FormGroup>
-                        <InputGroup className="mb-3">
-                            <DropdownButton
-                                variant="outline-secondary"
-                                title={formData.channel || "Select your mobile network"}
-                                id="input-group-dropdown-1"
-                                onSelect={handleSelectNetwork}
-                                style={{ maxWidth: "100%" }}
-                            >
-                                {mobileNetworks.map((network) => (
-                                    <Dropdown.Item key={network.value} eventKey={network.value}>
-                                        {network.name}
-                                    </Dropdown.Item>
-                                ))}
-                            </DropdownButton>
-                        </InputGroup>
-                    </FormGroup>
-                </div>
-                <div className="form-group my-2">
+            <div className="form-group my-2">
                 <FormGroup>
-                <InputGroup>
-                    <Form.Control
-                        type="text"
-                        value={formData.paymentNumber}
-                        placeholder="Enter your Payment Number"
-                        onChange={handlePaymentNumberChange}
-                        className="form-control"
-                    />
-                </InputGroup>
+                    <InputGroup>
+                        <Form.Control
+                            type="text"
+                            value={formData.paymentNumber}
+                            placeholder="Enter your Payment Number"
+                            onChange={handlePaymentNumberChange}
+                            className="form-control"
+                        />
+                    </InputGroup>
                 </FormGroup>
-                {errors.paymentNumber && <p className="error" >{errors.paymentNumber}</p>}
-                </div>
+                {errors.paymentNumber && <p className="error">{errors.paymentNumber}</p>}
+                {detectedProvider && <p>{detectedProvider} network</p>}
             </div>
         </div>
     );
-}   
-export default OrderForm4
+};
+
+export default OrderForm4;

@@ -27,6 +27,33 @@ app.post("/initiate-payment", async (req, res) => {
     }
 });
 
+
+app.post("/payment-callback", (req, res) => {
+    const { transactionRef, statusCode } = req.body;
+
+    if (statusCode === "PAYMENT_ACCEPTED") {
+        const sql = 'UPDATE orders SET OrderStatus = ? WHERE orderId = ?';
+        const values = ["Paid", transactionRef];  // Assuming transactionRef corresponds to orderId
+
+        connection.query(sql, values, (err, result) => {
+            if (err) {
+                console.error('Error updating order status:', err);
+                res.status(500).send('Error updating order status');
+                return;
+            }
+            res.status(200).send('Order status updated to Paid');
+        });
+    } else if (statusCode === "PAYMENT_FAILED") {
+       
+        console.log(`Payment failed for transactionRef: ${transactionRef}`);
+        res.status(200).send('Payment failed');
+    } else {
+        res.status(400).send('Unknown status code');
+    }
+});
+
+
+
 app.get("/orders-list", (req, res) => {    
     const sql = 'SELECT * FROM orders';
     connection.query(sql, (err, data) => {

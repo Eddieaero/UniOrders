@@ -24,41 +24,31 @@ import Swal from 'sweetalert2';
             });
 
             if (paymentResponse.data.statusCode === "PENDING_ACK") {
-                await axios.put(`http://localhost:5000/orders/${formData.orderId}/status`, {
-                    OrderStatus: "Paid"
-                });
-                alert("Payment successful! Order status has been updated.");
                 Swal.fire({
-                position: "center",
-                icon: "success",
-                backdrop: 'swal2-backdrop-show',
-                title: "payment successful",
-                showConfirmButton: true,
-                // timer: 1500
-                }).then((result) => {
-                    if (result.isConfirmed) {
-                        navigate("/");
-                    }
+                    position: "center",
+                    icon: "success",
+                    title: "Payment Confirmed...",
+                    showConfirmButton: true
+                }).then(() => {
+                    navigate("/"); // Redirect user to home after successful initiation
                 });
             } else {
-                alert("Payment initiation failed. Please try again.");
+                Swal.fire({
+                    position: "center",
+                    icon: "error",
+                    title: "Payment initiation failed",
+                    showConfirmButton: true
+                });
             }
         } catch (error) {
             console.error("Error during payment process:", error);
-            console.log
-            alert("There was an issue processing the payment.");
-                Swal.fire({
+            Swal.fire({
                 position: "center",
                 icon: "error",
-                backdrop: 'swal2-backdrop-show',
-                title: "Transaction failed",
-                showConfirmButton: true,
-                footer: 'Let\'s make a new order',
-                }).then((result) => {
-                    if (result.isConfirmed) {
-                        navigate("/order");
-                    }
-                });
+                title: "Payment initiation failed",
+                text: "There was an issue processing your payment.",
+                showConfirmButton: true
+            });
         }
     };
 

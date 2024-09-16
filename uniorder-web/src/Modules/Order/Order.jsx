@@ -56,7 +56,6 @@ const Order = () => {
                 }
             });
             navigate("/payment", { state: { formData } });
-            console.log(formData);
             setMessage({
                 text: "Congratulations! Your order is saved.",
                 type: "success"
@@ -120,21 +119,16 @@ const Order = () => {
                 newErrors.sashColor = "";
             }
         
-            } else if (currentPage === 3) { // OrderForm4
-            // const phoneRegex = /^(\+2556|\+2557)[0-9]{9}$/;
-            const phoneRegex = /^(\+2556|\+2557)[0-9]{7}$/;
-            // const phoneRegex = /^(07|06)[0-9]{8}$/;
+        } else if (currentPage === 3) { // OrderForm4
             if (!formData.channel) {
                 newErrors.channel = "Your mobile network is required.";
                 isValid = false;
             } else {
                 newErrors.channel = "";
             }
+    
             if (!formData.paymentNumber) {
                 newErrors.paymentNumber = "Payment number is required.";
-                isValid = false;
-            } else if (!phoneRegex.test(formData.paymentNumber)) {
-                newErrors.paymentNumber = "Phone number is Invalid. It should be in the format +255XXXXXXXXX.";
                 isValid = false;
             } else {
                 newErrors.paymentNumber = "";
