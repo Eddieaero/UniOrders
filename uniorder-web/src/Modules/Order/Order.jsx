@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import {useNavigate} from "react-router-dom";
-import {v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 import Footer from "../../Components/Footer/Footer";
 import NavBar from "../../Components/NavBar/NavBar";
 import OrderForm1 from "./OrderForm1";
@@ -14,15 +14,7 @@ import tag3 from "../../assets/nametag3.svg";
 import tag4 from "../../assets/nametag4.svg";
 
 const Order = () => {
-    const generateSimpleUUID = () => {
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        let result = '';
-        for (let i = 0; i < 6; i++) {
-            const randomIndex = Math.floor(Math.random() * characters.length);
-            result += characters[randomIndex];
-        }
-        return result;
-    };
+    const generateSimpleUUID = () => uuidv4().slice(0, 6);
 
     const [page, setPage] = useState(0);
     const [errors, setErrors] = useState({});
@@ -63,6 +55,7 @@ const Order = () => {
             console.log("Order saved successfully", response.data);
         } catch (error) {
             console.log("Error:", error);
+            // console.log("Error:", error.response.data); 
             setMessage({
                 text: "Oops, sorry, something went wrong!",
                 type: "error"

@@ -36,7 +36,7 @@ import Swal from 'sweetalert2';
                 Swal.fire({
                     position: "center",
                     icon: "error",
-                    title: "Payment initiation failed",
+                    title: "Please try again",
                     showConfirmButton: true
                 });
             }

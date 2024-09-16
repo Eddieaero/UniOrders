@@ -95,6 +95,12 @@ const OrderForm4 = ({ formData, setFormData, errors, setErrors }) => {
                 {errors.paymentNumber && <p className="error">{errors.paymentNumber}</p>}
                 {detectedProvider && <p>{detectedProvider} network</p>}
             </div>
+            <div className="p-1" style={{margin: "auto", width:"250px", height: "auto", borderRadius: "12px", color: "#AE8625", backgroundColor: "rgba(174, 134, 37, 0.17)"}}>
+                <p style={{fontWeight:"bold"}}>Note..</p>
+                <p style={{marginTop:"-10px"}}>Write exact details as they
+                    would appear on your sash</p>
+                <p style={{marginTop:"-10px"}}>You will be charged Tsh 20,000/=</p>
+            </div>
         </div>
     );
 };
