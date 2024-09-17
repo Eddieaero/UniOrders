@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-8 col-sm-12 contactInfo" >
                <div className="col-lg-3 col-sm-10 p-lg-4 ">
                   <p>For more information</p>
-                  <a href="tel:+255784346484" style={{ color: "#bdbcbc", textDecoration: "none" }}>
+                  <a href="tel:+255744873082" style={{ color: "#bdbcbc", textDecoration: "none" }}>
                      +255 784 346 484
                   </a>
                </div>
@@ -21,7 +21,7 @@ const Footer = () => {
                      </a>
                   </div>
                   <div>
-                     <a href="https://wa.me/255784346484" target="_blank" rel="noopener noreferrer" style={{justifyContent:"right", textDecoration:"none", margin: "0 0px", color: "#bdbcbc" }}>
+                     <a href="https://wa.me/255744873082" target="_blank" rel="noopener noreferrer" style={{justifyContent:"right", textDecoration:"none", margin: "0 0px", color: "#bdbcbc" }}>
                      <WhatsappLogo size={32} /> WhatsApp
                      </a>
                   </div>

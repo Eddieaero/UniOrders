@@ -35,7 +35,7 @@ const HeroSection = () => {
                             <Button bg="light" 
                                     data-bs-theme="light"
                                     className='cta2Button d-md-flex d-none'
-                                    href="https://wa.me/255784346484"   
+                                    href="https://wa.me/255744873082"   
                                     style={{ backgroundColor:"white", color:"black" ,border:"2px solid black" }}>
                                     Contact Support team
                             </Button> 
@@ -83,6 +83,9 @@ const HeroSection = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={blueSash}  style={{ width:"35%", height:"35%"}}/>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={goldenSash}  style={{ width:"35%", height:"35%"}}/>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={goldenSash}  style={{ width:"35%", height:"35%"}}/>
