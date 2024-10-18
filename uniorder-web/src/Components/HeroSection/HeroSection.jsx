@@ -17,6 +17,7 @@ import blueSash from "../../assets/blue sash0.svg";
 import whiteSash from "../../assets/white sash0.svg";
 import blackSash from "../../assets/black sash0.svg";
 import goldenSash from "../../assets/gold sash0.svg";
+import pinkSash from "../../assets/baby pink sash.svg";
 
 const HeroSection = () => {
     return (
@@ -88,7 +89,7 @@ const HeroSection = () => {
                             <img src={goldenSash}  style={{ width:"35%", height:"35%"}}/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={goldenSash}  style={{ width:"35%", height:"35%"}}/>
+                            <img src={pinkSash}  style={{ width:"35%", height:"35%"}}/>
                         </SwiperSlide>
                         <div className="m-lg-5 slider-controller">
                             <div className="swiper-button-prev slider-arrow">

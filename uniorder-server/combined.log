@@ -1,2 +1,5 @@
 {"level":"info","message":"Order created successfully","orderId":"4bec4d","timestamp":"2024-09-16T05:10:02.098Z"}
 {"level":"info","message":"Order created successfully","orderId":"115373","timestamp":"2024-09-16T09:59:19.670Z"}
+{"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:51:13.773Z"}
+{"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:54:42.253Z"}
+{"level":"info","message":"Order created successfully","orderId":"56b0b5","timestamp":"2024-10-18T10:01:25.212Z"}
