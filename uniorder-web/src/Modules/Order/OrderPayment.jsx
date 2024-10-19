@@ -12,45 +12,72 @@ import Swal from 'sweetalert2';
     const {formData} = location.state;
 
     const handlePayment = async () => {
+        let timerInterval;
+        
+        // Start the loading alert with a timer
+        Swal.fire({
+            title: "Processing Payment...",
+            html: "Please wait while we confirm your payment.",
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+                const timer = Swal.getPopup().querySelector("b");
+                timerInterval = setInterval(() => {
+                    if (timer) {
+                        timer.textContent = `${Swal.getTimerLeft()}`;
+                    }
+                }, 1000);
+            },
+            willClose: () => {
+                clearInterval(timerInterval);
+            }
+        });
+    
         try {
+            // Initiate payment request
             const paymentResponse = await axios.post('http://localhost:5000/initiate-payment', {
-                msisdn: formData.paymentNumber,
-                channel: formData.channel,
+                buyer_name: `${formData.firstName} ${formData.lastName}`,
+                buyer_phone: formData.paymentNumber,
+                buyer_email: "firstedson@gmail.com",
                 amount: 20000,
-                narration: `Payment for Order ${formData.orderId}`,
                 transactionRef: formData.orderId,
-                transactionDate: new Date().toISOString().slice(0, 19).replace('T', ' '),
-                callbackUrl: 'http://localhost:5000/payment-callback' // You can adjust this to your actual callback URL
             });
-
-            if (paymentResponse.data.statusCode === "PENDING_ACK") {
+    
+            // Check the response from the payment API
+            if (paymentResponse.data.status === "success") {  // Replace "success" with the correct key from ZenoPay API
                 Swal.fire({
                     position: "center",
                     icon: "success",
                     title: "Payment Confirmed...",
-                    showConfirmButton: true
+                    html: "Your payment was successful. Redirecting...",
+                    showConfirmButton: false,
+                    timer: 2000  // Auto-close after 2 seconds
                 }).then(() => {
-                    navigate("/"); // Redirect user to home after successful initiation
+                    navigate("/"); // Redirect user to home after successful payment
                 });
             } else {
                 Swal.fire({
                     position: "center",
                     icon: "error",
-                    title: "Please try again",
+                    title: "Payment Failed",
+                    html: paymentResponse.data.message || "There was an issue with your payment. Please try again.",
                     showConfirmButton: true
                 });
             }
         } catch (error) {
             console.error("Error during payment process:", error);
+    
+            // Display the error alert
             Swal.fire({
                 position: "center",
                 icon: "error",
                 title: "Payment initiation failed",
-                text: "There was an issue processing your payment.",
+                html: error.response?.data?.message || "There was an issue processing your payment.",
                 showConfirmButton: true
             });
         }
     };
+    
 
     return(
     <div >

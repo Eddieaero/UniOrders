@@ -4,9 +4,10 @@ const mysql = require('mysql2');
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const { initiatePayment } = require('./temboApi');
+const { initiatePayment } = require('./zenoApi');
 const { body, validationResult } = require('express-validator');
 const winston = require('winston');
+const qs = require('qs');
 
 
 const connection = mysql.createConnection({
@@ -47,30 +48,47 @@ const logger = winston.createLogger({
 app.post(
     "/initiate-payment",
     [
-      body('msisdn').isMobilePhone('any').trim().withMessage('Invalid phone number'),
-      body('channel').isIn(['TZ-AIRTEL-C2B', 'TZ-TIGO-C2B', 'TZ-HALOTEL-C2B']).withMessage('Invalid channel'),
+      body('buyer_name').isLength({ min: 2 }).trim().withMessage('Invalid buyer name'),
+      body('buyer_phone').isMobilePhone('any').trim().withMessage('Invalid phone number'),
+      body('buyer_email').isEmail().trim().withMessage('Invalid email'),
       body('amount').isNumeric().withMessage('Amount should be numeric'),
-      body('narration').trim().isLength({ min: 3 }).withMessage('Narration should be at least 3 characters long'),
-      body('transactionRef').isAlphanumeric().trim().withMessage('Invalid transaction reference'),
-      body('transactionDate').isISO8601().toDate().withMessage('Invalid date format'),
-      body('callbackUrl').isURL().withMessage('Invalid callback URL')
+      body('transactionRef').isAlphanumeric().trim().withMessage('Invalid transaction reference')
     ],
     async (req, res) => {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
+          return res.status(400).json({ errors: errors.array() });
       }
   
-      const { msisdn, channel, amount, narration, transactionRef, transactionDate, callbackUrl } = req.body;
-  
+      const { buyer_name, buyer_phone, buyer_email, amount, transactionRef } = req.body;
+
+      const data = {
+        create_order: 1,
+        buyer_name,
+        buyer_phone,
+        buyer_email,
+        amount,
+        account_id: process.env.ZENO_ACCOUNT_ID,
+        secret_key: process.env.ZENO_SECRET_KEY,
+        api_key: process.env.ZENO_API_KEY
+      };
+      
+      const formattedData = qs.stringify(data);
+
       try {
-        const paymentResponse = await initiatePayment(msisdn, channel, amount, narration, transactionRef, transactionDate, callbackUrl);
-        logger.info('Payment initiated', { transactionRef, paymentResponse });
-        res.json(paymentResponse);
-      } catch (error) {
-        logger.error('Payment initiation failed', { error });
+        // Send request to Zeno Pay API
+        const response = await axios.post('https://api.zeno.africa', formattedData, {
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        });
+
+        logger.info('Zeno payment initiated', { transactionRef, response: response.data });
+        res.json(response.data);
+    } catch (error) {
+        logger.error('Zeno payment initiation failed', { transactionRef, error: error.response ? error.response.data : error.message });
         res.status(500).send('Payment initiation failed');
-      }
+    }
     }
   );
   

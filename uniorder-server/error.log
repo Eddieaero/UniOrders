@@ -1,2 +1,5 @@
 {"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:51:13.773Z"}
 {"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:54:42.253Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T03:30:04.217Z","transactionRef":"22cc5c"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:49:52.485Z","transactionRef":"f84b15"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:51:01.939Z","transactionRef":"f84b15"}

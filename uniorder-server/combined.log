@@ -3,3 +3,14 @@
 {"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:51:13.773Z"}
 {"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:54:42.253Z"}
 {"level":"info","message":"Order created successfully","orderId":"56b0b5","timestamp":"2024-10-18T10:01:25.212Z"}
+{"level":"info","message":"Order created successfully","orderId":"14b49c","timestamp":"2024-10-18T18:37:11.369Z"}
+{"level":"info","message":"Order created successfully","orderId":"22cc5c","timestamp":"2024-10-19T03:18:45.481Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:20:16.327Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:27:09.796Z","transactionRef":"22cc5c"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T03:30:04.217Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:37:14.035Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Order created successfully","orderId":"f84b15","timestamp":"2024-10-19T03:38:20.471Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"671329b5c2c1d","status":"success"},"timestamp":"2024-10-19T03:38:32.092Z","transactionRef":"f84b15"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:49:52.485Z","transactionRef":"f84b15"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:51:01.939Z","transactionRef":"f84b15"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"67133b028c707","status":"success"},"timestamp":"2024-10-19T04:52:20.951Z","transactionRef":"f84b15"}

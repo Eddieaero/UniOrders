@@ -28,7 +28,6 @@ const Order = () => {
         universityName: "",
         universityCourse: "",
         sashColor: "",
-        channel: "",
         paymentNumber: "",
         orderId: generateSimpleUUID(),
         OrderDate: new Date().toLocaleDateString('en-CA', {
@@ -113,12 +112,6 @@ const Order = () => {
             }
         
         } else if (currentPage === 3) { // OrderForm4
-            if (!formData.channel) {
-                newErrors.channel = "Your mobile network is required.";
-                isValid = false;
-            } else {
-                newErrors.channel = "";
-            }
     
             if (!formData.paymentNumber) {
                 newErrors.paymentNumber = "Payment number is required.";
