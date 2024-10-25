@@ -91,7 +91,6 @@ const OrderForm2 = ({ formData, setFormData, errors, setErrors }) => {
                     </div>
                 </div>
 
-                {/* Conditionally show the "Other" input field if it's selected */}
                 {isOtherSelected && (
                     <div>
                     <div className="form-group m-4">

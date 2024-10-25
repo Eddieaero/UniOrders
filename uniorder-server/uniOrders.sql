@@ -1,16 +1,15 @@
-CREATE DATABASE  uniorders;
 
-USE uniorders;
-
-CREATE TABLE  orders (
-    orderId INT PRIMARY KEY,
-    firstName VARCHAR(255) NOT NULL,
-    lastName VARCHAR(255) NOT NULL,
+CREATE TABLE orders (
+    orderId VARCHAR(255) PRIMARY KEY,  
+    firstName VARCHAR(100),
+    lastName VARCHAR(100),
     availablePhone VARCHAR(20),
-    universityName VARCHAR(255) NOT NULL,
-    universityCourse VARCHAR(255) NOT NULL,
-    sashColor VARCHAR(50),
-    paymentNumber VARCHAR(50),
+    universityName VARCHAR(255),
+    universityCourse VARCHAR(255),
+    sashColor VARCHAR(100),
+    paymentNumber VARCHAR(20),
     OrderDate DATE,
-    OrderStatus VARCHAR(50)
+    OrderStatus ENUM('Paid', 'Unpaid'),
+    quote VARCHAR(500) NULL, 
+    logo_url VARCHAR(255)
 );

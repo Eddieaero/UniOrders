@@ -3,3 +3,317 @@
 {"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T03:30:04.217Z","transactionRef":"22cc5c"}
 {"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:49:52.485Z","transactionRef":"f84b15"}
 {"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:51:01.939Z","transactionRef":"f84b15"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T07:05:48.645Z","transactionRef":"f1f9fa"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:12:56.349Z","transactionRef":"302144"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:13:48.776Z","transactionRef":"302144"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:19:10.649Z","transactionRef":"302144"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:22:49.996Z","transactionRef":"d533a5"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","timestamp":"2024-10-20T11:56:45.967Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:56:45.968Z","transactionRef":"1f9f08"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:14:51.723Z","transactionRef":"f99365"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","timestamp":"2024-10-20T12:15:45.536Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:15:45.537Z","transactionRef":"f99365"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6714f68d33b1b","timestamp":"2024-10-20T12:25:28.810Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:25:28.811Z","transactionRef":"01fc3d"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:41:06.128Z","transactionRef":"42b182"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:41:23.059Z","transactionRef":"42b182"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:50:06.809Z","transactionRef":"4d28a0"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:50:58.378Z","transactionRef":"4d28a0"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:52:22.799Z","transactionRef":"4d28a0"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:43:11.022Z","transactionRef":"d3d3cb"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:47:07.398Z","transactionRef":"ed35ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:49:59.175Z","transactionRef":"ed35ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"67150a8f5d11c","timestamp":"2024-10-20T13:50:37.641Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:50:37.643Z","transactionRef":"ed35ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:06:52.037Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:07:10.020Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:15:44.627Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:18:51.549Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:21:14.461Z","transactionRef":"3ce2ef"}
+{"error":"socket hang up","level":"error","message":"Error initiating payment","timestamp":"2024-10-20T16:26:33.937Z","transactionRef":"3ce2ef"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:26:33.941Z","transactionRef":"3ce2ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error initiating payment","timestamp":"2024-10-20T16:27:01.105Z","transactionRef":"3ce2ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:27:01.106Z","transactionRef":"3ce2ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6715352f1514e","timestamp":"2024-10-20T16:52:46.011Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6715352f1514e","timestamp":"2024-10-20T16:52:46.012Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535831d961","timestamp":"2024-10-20T16:54:31.127Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535831d961","timestamp":"2024-10-20T16:54:31.128Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535d5b8374","timestamp":"2024-10-20T16:55:39.903Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535d5b8374","timestamp":"2024-10-20T16:55:39.903Z"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:06.948Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:06.950Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:10.080Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:10.082Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:31.384Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:31.385Z","transactionRef":"39e2c0"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:08:24.116Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:08:34.129Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T08:08:44.151Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T08:08:54.161Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T08:09:04.178Z","transactionRef":"071e1c"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T08:09:04.181Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:09:47.803Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:09:57.818Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:11:10.302Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:12:40.391Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:12:50.406Z","transactionRef":"071e1c"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:15.082Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:20.467Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:27.826Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:47:47.578Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:48:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:49:47.604Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:50:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:51:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:52:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:53:47.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:54:47.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:55:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:56:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:57:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:58:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:59:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:00:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:01:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:06.008Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:07.219Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:12.641Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:17.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:22.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:27.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:32.231Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:37.225Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:42.222Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:52.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:57.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:02.577Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:07.577Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:12.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:17.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:22.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:27.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:32.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:37.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:42.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:04:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:05:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:06:47.583Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:28.431Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:35.620Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:41.997Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:44.154Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:44.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:07:47.586Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:08:00.721Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:08:19.446Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:08:47.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:09:47.593Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:10:04.852Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:10:47.592Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:11:11.835Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:11:22.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:11:47.582Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:12:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:13:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:14:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:15:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:16:47.585Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:16:57.666Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:04.842Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:12.670Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:19.254Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:17:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:18:48.628Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:18:59.481Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:19:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:35.862Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:37.226Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:42.219Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:47.222Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:52.220Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:57.645Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:02.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:07.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:12.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:17.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:22.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:27.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:32.579Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:37.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:42.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:52.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:40.957Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:42.228Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:22:43.457Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:52.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:57.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:02.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:07.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:12.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:17.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:22.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:27.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:32.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:37.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:24:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:25:47.602Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:26:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:27:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:28:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:29:47.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:30:47.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:31:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:32:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:33:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:34:47.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:35:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:36:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:37:47.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:38:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:39:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:40:47.586Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:41:44.949Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:41:47.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:42:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:43:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:44:47.595Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:45:18.995Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:45:47.636Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:46:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:47:47.582Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:48:47.594Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:48:59.998Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:49:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:50:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:51:47.592Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:52:25.794Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:52:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:53:47.595Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:54:31.792Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:54:47.588Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:54:49.434Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:55:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:56:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:57:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:58:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:59:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:00:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:01:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:02:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:03:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:04:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:05:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:06:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:07:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:08:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:09:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:10:47.603Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:11:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:12:47.599Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:12:47.805Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:13:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:14:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:15:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:16:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:17:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:18:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:19:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:20:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:21:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:22:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:23:47.587Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:24:14.293Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:24:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:25:47.589Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:26:15.301Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:26:47.601Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:27:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:28:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:29:47.609Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:30:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:31:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:32:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:33:47.600Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:34:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:35:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:36:47.589Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:37:10.619Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:37:47.613Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:38:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:39:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:40:47.602Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:41:24.463Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:41:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:42:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:43:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:44:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:45:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:46:47.614Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:47:48.682Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:48:47.604Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:49:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:50:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:51:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:52:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:53:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:54:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:55:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:56:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:57:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:58:47.609Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:59:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:00:47.607Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:01:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:02:47.805Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:03:47.619Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:04:47.632Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:05:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:06:47.630Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:11:47.602Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:12:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:13:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:14:47.586Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:00:49.072Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:00:59.093Z","transactionRef":"04612b"}
+{"error":"read ECONNRESET","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:00:59.933Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:01:09.944Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:01:19.965Z","transactionRef":"04612b"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:01:19.967Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:02:15.599Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:02:25.615Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:02:35.629Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:02:45.636Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:02:55.649Z","transactionRef":"9dceb8"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:02:55.651Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:03:51.542Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:04:01.551Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:04:11.566Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:04:21.587Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:04:31.596Z","transactionRef":"9dceb8"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:04:31.597Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:06:29.684Z","transactionRef":"61bb8d"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:06:39.695Z","transactionRef":"61bb8d"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:08:44.489Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:08:54.495Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:09:04.509Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:09:14.525Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:09:24.531Z","transactionRef":"8ab3ea"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:09:24.533Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:09:39.430Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:11:25.708Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:11:35.717Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:11:45.729Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:11:55.745Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:12:05.757Z","transactionRef":"8ab3ea"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:12:05.759Z","transactionRef":"8ab3ea"}
+{"error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"message":"Table 'uniorders.orders' doesn't exist","sql":"SELECT * FROM orders","sqlMessage":"Table 'uniorders.orders' doesn't exist","sqlState":"42S02"},"level":"error","message":"Error fetching orders","timestamp":"2024-10-23T17:04:57.746Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry '4d8e79' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('4d8e79', 'EDSON', 'NAGABONA KUZENGWA', '0787537628', 'asas', 'asa', 'white', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry '4d8e79' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T15:08:39.846Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry 'fc6479' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('fc6479', 'asas', 'asas', '0787537622', 'dad', 'ada', 'baby-pink', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry 'fc6479' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T15:52:59.234Z"}
+{"error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T16:56:38.448Z"}
+{"error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T16:58:16.144Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry '8187ac' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('8187ac', 'veve', 'eveve', '0787537628', 'wfwf', 'wfwf', 'baby-pink', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry '8187ac' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T17:02:09.938Z"}

@@ -16,7 +16,6 @@ const OrderForm5 = ({ formData, setFormData, errors, setErrors }) => {
         if (parsedNumber) {
             const nationalNumber = parsedNumber.nationalNumber;
     
-            // Check if the national number has exactly 9 digits (for Tanzanian numbers)
             if (nationalNumber.length !== 9) {
                 setFormData({ ...formData, paymentNumber: sanitizedNumber });
                 setErrors(prev => ({ ...prev, paymentNumber: "Invalid phone number." }));

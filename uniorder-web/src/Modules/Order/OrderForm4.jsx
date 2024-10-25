@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {
     const [selectedColor, setSelectedColor] = useState(formData.sashColor || '');
-    // const [activeButton, setActiveButton] = useState();
     const handleButtonClick = (color) => {
         setSelectedColor(color);
         setFormData({ ...formData, sashColor: color });
@@ -11,11 +10,9 @@ const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {
 
     return (
         <div>
-        {/* <h3>Sash color</h3> */}
             <div className="form-group m-lg-1 flex">
             <h3>Select your favorite Sash Color</h3>
                 <div className="display-flex m-lg-1 ">
-                    {/* <button className="m-1 sash-button sash-color-gold " */}
                     <button className={`sash-button m-lg-1 mx-1 sash-color-gold ${selectedColor === "gold" ? "active" : ""}`}
                             onClick={() => handleButtonClick('gold')}
                     ></button>

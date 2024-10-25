@@ -19,7 +19,6 @@ const NavBar = () => {
   return (
         <div className=' flex nav-style'>
         <Navbar  className='' data-bs-theme="dark" >
-        {/* <Navbar bg="dark" className='navbar' data-bs-theme="dark" style={{width:"100%", height:"5%", padding:"0px"}} > */}
           <Container className='flex nav-container' >
             <Navbar.Brand 
             className='centered-logo'

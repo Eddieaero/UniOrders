@@ -12,7 +12,6 @@ const Home = () => {
     <div>
         <NavBar />
             <div>
-                {/* Home */}
                 <HeroSection/>
                 <Card1/>
                 <Card2/>

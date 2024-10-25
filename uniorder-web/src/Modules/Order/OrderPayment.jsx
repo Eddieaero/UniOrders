@@ -41,7 +41,7 @@ import Swal from 'sweetalert2';
                 buyer_name: `${formData.firstName} ${formData.lastName}`,
                 buyer_phone: formData.paymentNumber,
                 buyer_email: "firstedson@gmail.com",
-                amount: 500,
+                amount: formData.paymentAmount,
                 transactionRef: formData.orderId,
             });
 

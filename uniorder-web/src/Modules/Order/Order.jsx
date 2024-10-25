@@ -79,7 +79,6 @@ const Order = () => {
             console.log("Order saved successfully", response.data);
         } catch (error) {
             console.log("Error:", error);
-            // console.log("Error:", error.response.data); 
             setMessage({
                 text: "Oops, sorry, something went wrong!",
                 type: "error"
@@ -192,7 +191,6 @@ const Order = () => {
                 <div className="order-form " >
                     {message.text && (
                         <div className={` order-complete ${message.type}`}>
-                            {/* <h5>{message.type === "success" ? "Congratulations!" : "Oops Sorry, something went wrong!"}</h5> */}
                             <p>{message.text}</p>
                         </div>
                     )}
@@ -207,10 +205,6 @@ const Order = () => {
                                 </div>
                             </div>
                             <div className="form-body">
-                                {/* <p>Sash Order</p>
-                                <div className="form-title">
-                                    <p>{formTitles[page]}</p>
-                                </div> */}
                                 <div className="m-lg-3 form-content">
                                     {pageDisplay()}
                                 </div>
@@ -240,13 +234,7 @@ const Order = () => {
                                 >
                                     {page === formTitles.length - 1 ? "Finish" : "Next"}
                                 </button>
-                                {/* <div className="m-4 p-2" style={{width:"250px", height: "100px", borderRadius: "12px", color: "#AE8625", backgroundColor: "rgba(174, 134, 37, 0.17)"}}>
-                                    <p style={{fontWeight:"bold"}}>Note..</p>
-                                    <p style={{marginTop:"-10px"}}>Write exact details as they
-                                        would appear on your sash</p>
-                                </div> */}
                             </div>
-                            
                         </div>
                     </div>
                 </div>

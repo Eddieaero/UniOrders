@@ -866,11 +866,7 @@ body {
       font-size: 50px;
       font-weight:normal;
     }
-    /* .heroMainText div span{
-       font-weight: lighter;
-       font-size: 20px;
-      margin-top: 0px;
-    } */
+
     .heroText{
        font-weight:normal;
        font-size:50px;
@@ -1096,8 +1092,6 @@ body {
     .form-footer{
       margin-top: 20px;
       margin-bottom: 20px;
-      /* display: "inline-block" */
-      /* justify-content: space-evenly; */
     }
     .form-container{
       display: flex;
