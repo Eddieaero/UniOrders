@@ -1,62 +1,54 @@
 import { useState } from "react";
-import { FormGroup, InputGroup } from "react-bootstrap";
-import Form from "react-bootstrap/Form";
-import { parsePhoneNumberFromString } from 'libphonenumber-js';
 
-const OrderForm4 = ({ formData, setFormData, errors, setErrors }) => {
-
-
-
-    const handlePaymentNumberChange = (event) => {
-        const inputNumber = event.target.value;
-        const sanitizedNumber = inputNumber.replace(/\D/g, ''); // Remove all non-numeric characters
-    
-        const parsedNumber = parsePhoneNumberFromString(sanitizedNumber, 'TZ'); // Try parsing the phone number as it is
-    
-        if (parsedNumber) {
-            const nationalNumber = parsedNumber.nationalNumber;
-    
-            // Check if the national number has exactly 9 digits (for Tanzanian numbers)
-            if (nationalNumber.length !== 9) {
-                setFormData({ ...formData, paymentNumber: sanitizedNumber });
-                setErrors(prev => ({ ...prev, paymentNumber: "Invalid phone number." }));
-            } else {
-                setFormData({ ...formData, paymentNumber: sanitizedNumber });
-                setErrors(prev => ({ ...prev, paymentNumber: "" })); // Clear any errors
-            }
-    
-        } else {
-            setFormData({ ...formData, paymentNumber: sanitizedNumber });
-            setErrors(prev => ({ ...prev, paymentNumber: "Invalid phone number format." }));
-        }
-    };
-    
+const OrderForm4 = ({formData, setFormData, errors, setErrors }) => {
+    const [selectedColor, setSelectedColor] = useState(formData.sashColor || '');
+    // const [activeButton, setActiveButton] = useState();
+    const handleButtonClick = (color) => {
+        setSelectedColor(color);
+        setFormData({ ...formData, sashColor: color });
+        setErrors(prev => ({ ...prev, sashColor: "" }));
+      };
 
     return (
         <div>
-            <h1>Payment Info</h1>
-            <div className="form-group my-2">
-                <FormGroup>
-                    <InputGroup>
-                        <Form.Control
-                            type="text"
-                            value={formData.paymentNumber}
-                            placeholder="Enter your Payment Number"
-                            onChange={handlePaymentNumberChange}
-                            className="form-control"
-                        />
-                    </InputGroup>
-                </FormGroup>
-                {errors.paymentNumber && <p className="error">{errors.paymentNumber}</p>}
-            </div>
-            <div className="p-1" style={{margin: "auto", width:"250px", height: "auto", borderRadius: "12px", color: "#AE8625", backgroundColor: "rgba(174, 134, 37, 0.17)"}}>
-                <p style={{fontWeight:"bold"}}>Note..</p>
-                <p style={{marginTop:"-10px"}}>Write exact details as they
-                    would appear on your sash</p>
-                <p style={{marginTop:"-10px"}}>You will be charged Tsh 20,000/=</p>
+        {/* <h3>Sash color</h3> */}
+            <div className="form-group m-lg-1 flex">
+            <h3>Select your favorite Sash Color</h3>
+                <div className="display-flex m-lg-1 ">
+                    {/* <button className="m-1 sash-button sash-color-gold " */}
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-gold ${selectedColor === "gold" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('gold')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-blue ${selectedColor === "blue" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('blue')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-maroon ${selectedColor === "maroon" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('maroon')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-white ${selectedColor === "white" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('white')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-black ${selectedColor === "black" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('black')}
+                    ></button>
+                    <button className={`sash-button m-lg-1 mx-1 sash-color-baby-pink ${selectedColor === "baby-pink" ? "active" : ""}`}
+                            onClick={() => handleButtonClick('baby-pink')}
+                    ></button>
+                </div>
+                {errors.sashColor && 
+                        <p className="error" 
+                                style={{alignItems: "center", 
+                                        display: "flex", 
+                                        padding: "5px", 
+                                        borderRadius: "5px", 
+                                        border: "1px solid #f5c6cb", 
+                                        color: "#721c24", 
+                                        backgroundColor: "#f8d7da"}}>
+                                        {errors.sashColor}
+                        </p>}
             </div>
         </div>
     );
-};
+}
 
 export default OrderForm4;

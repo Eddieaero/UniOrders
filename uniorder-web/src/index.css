@@ -450,6 +450,13 @@ body {
       border-top-left-radius: 48px;  
       border-bottom-left-radius: 48px;
     }
+    .comment-section{
+      height:auto;
+      max-height: 500px;
+      width: 250px;
+      overflow-y: auto;
+      resize: vertical;
+    }
     
   }
   
@@ -659,6 +666,13 @@ body {
       font-weight: 700;
       overflow-y: auto;
       
+    }
+    .comment-section{
+      height:auto;
+      max-height: 500px;
+      width: 250px;
+      overflow-y: auto;
+      resize: vertical;
     }
   }
   
@@ -1030,7 +1044,6 @@ body {
       width: 80%;
       height: 35rem;
       justify-content: center;
-      /* justify-content: space-evenly; */
       flex-direction: column;
       text-align: center;
       align-items: center;
@@ -1041,6 +1054,14 @@ body {
       /* flex: 1;  */
       /* overflow: hidden; */
       /* margin: 100px; */
+    }
+
+    .comment-section{
+      height:auto;
+      max-height: 500px;
+      width: 250px;
+      overflow-y: auto;
+      resize: vertical;
     }
 
     .error{

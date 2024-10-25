@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useLocation } from "react-router";
 import NavBar from "../../Components/NavBar/NavBar";
 import { useNavigate } from "react-router";
@@ -10,6 +11,7 @@ import Swal from 'sweetalert2';
     const navigate = useNavigate();
     const location = useLocation();
     const {formData} = location.state;
+    const [paymentInitiated, setPaymentInitiated] = useState(false);
 
     const handlePayment = async () => {
         let timerInterval;
@@ -39,19 +41,28 @@ import Swal from 'sweetalert2';
                 buyer_name: `${formData.firstName} ${formData.lastName}`,
                 buyer_phone: formData.paymentNumber,
                 buyer_email: "firstedson@gmail.com",
-                amount: 20000,
+                amount: 500,
+                transactionRef: formData.orderId,
+            });
+
+            setPaymentInitiated(true); 
+
+            await new Promise(resolve => setTimeout(resolve, 60000));
+
+            const confirmationResponse = await axios.post('http://localhost:5000/confirm-payment', {
+                order_id: paymentResponse.data.order_id, // Assuming `order_id` is returned from payment initiation
                 transactionRef: formData.orderId,
             });
     
             // Check the response from the payment API
-            if (paymentResponse.data.status === "success") {  // Replace "success" with the correct key from ZenoPay API
+            if (confirmationResponse.data.status === "success") {  // Replace "success" with the correct key from ZenoPay API
                 Swal.fire({
                     position: "center",
                     icon: "success",
                     title: "Payment Confirmed...",
                     html: "Your payment was successful. Redirecting...",
                     showConfirmButton: false,
-                    timer: 2000  // Auto-close after 2 seconds
+                    timer: 4000  // Auto-close after 2 seconds
                 }).then(() => {
                     navigate("/"); // Redirect user to home after successful payment
                 });
@@ -60,7 +71,7 @@ import Swal from 'sweetalert2';
                     position: "center",
                     icon: "error",
                     title: "Payment Failed",
-                    html: paymentResponse.data.message || "There was an issue with your payment. Please try again.",
+                    html: confirmationResponse.data.message || "There was an issue with your payment. Please try again.",
                     showConfirmButton: true
                 });
             }
@@ -87,6 +98,14 @@ import Swal from 'sweetalert2';
                 <h5>Congratulations !</h5>
                 <p>Your Order is saved</p>
             </div>
+
+            {paymentInitiated && (
+                <div className="order-complete flex">
+                    <h5>Payment Initiated !!</h5>
+                    <p>Ready for Payment</p>
+                </div>
+            )}
+
             <div className="order-form " style={{display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden"}}>
                 <div className="col-lg-5" style={{display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden"}}>
                     <img className="tag-image d-none d-md-flex" src={tag1}/>

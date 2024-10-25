@@ -8,10 +8,12 @@ import OrderForm1 from "./OrderForm1";
 import OrderForm2 from "./OrderForm2";
 import OrderForm3 from "./OrderForm3";
 import OrderForm4 from "./OrderForm4";
+import OrderForm5 from "./OrderForm5";
 import tag1 from "../../assets/nametag1.svg";
 import tag2 from "../../assets/nametag2.svg";
 import tag3 from "../../assets/nametag3.svg";
 import tag4 from "../../assets/nametag4.svg";
+import tag5 from "../../assets/nametag5.svg";
 
 const Order = () => {
     const generateSimpleUUID = () => uuidv4().slice(0, 6);
@@ -20,7 +22,7 @@ const Order = () => {
     const [errors, setErrors] = useState({});
     const [message, setMessage] = useState({ text: "", type: "" }); // New state for messages
     const navigate = useNavigate();
-    const formTitles = ["Full Name", "University Info","Sash color", "Payment Info"];
+    const formTitles = ["Full Name", "University Info","Quote Section","Sash color", "Payment Info"];
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -35,17 +37,40 @@ const Order = () => {
         }), // Format: YYYY-MM-DD
         amount: 20000,
         OrderStatus: "Unpaid",
+        universityImage: null,
+        quote: "",
+        logo_url: null,
     });
+    
 
 
 
     const handleSubmit = async () => {
         try {
-            const response = await axios.post("http://localhost:5000/orders", formData, {
-                headers: {
-                    "Content-Type": "application/json"
+            const formDataToSend = new FormData();
+            Object.keys(formData).forEach(key => {
+                if (key === "universityImage" && formData[key]) {
+                    formDataToSend.append(key, formData[key]);
+                } else {
+                    formDataToSend.append(key, formData[key]);
                 }
             });
+
+            const response = await axios.post("http://localhost:5000/create-order", formDataToSend, {
+                headers: {
+                    "Content-Type": "multipart/form-data"
+                }
+            });
+
+            const createdOrder = response.data;
+
+            if (createdOrder.fileURL) {
+                setFormData((prevData) => ({
+                    ...prevData,
+                    logoUrl: createdOrder.fileURL // Update logoUrl in formData
+                }));
+            }
+            
             navigate("/payment", { state: { formData } });
             setMessage({
                 text: "Congratulations! Your order is saved.",
@@ -103,15 +128,16 @@ const Order = () => {
             } else {
                 newErrors.universityCourse = "";
             }
-        } else if (currentPage === 2) { // OrderForm3
+        } 
+         else if (currentPage === 3) { // OrderForm3
             if (!formData.sashColor) {
                 newErrors.sashColor = "Sash color selection is required.";
                 isValid = false;
             } else {
                 newErrors.sashColor = "";
-            }
+            }    
         
-        } else if (currentPage === 3) { // OrderForm4
+        } else if (currentPage === 4) { // OrderForm4
     
             if (!formData.paymentNumber) {
                 newErrors.paymentNumber = "Payment number is required.";
@@ -135,6 +161,8 @@ const Order = () => {
                 return <OrderForm3 formData={formData} setFormData={setFormData} errors={errors} setErrors={setErrors} />;
             case 3:
                 return <OrderForm4 formData={formData} setFormData={setFormData} errors={errors} setErrors={setErrors} />;
+            case 4:
+                return <OrderForm5 formData={formData} setFormData={setFormData} errors={errors} setErrors={setErrors} />;
             default:
                 return null;
         }
@@ -150,6 +178,8 @@ const Order = () => {
                 return <img src={tag3} className="tag-image" alt="tag3" />;
             case 3:
                 return <img src={tag4} className="tag-image" alt="tag4" />;
+            case 4:
+                return <img src={tag5} className="tag-image" alt="tag5" />;
             default:
                 return null;
         }
@@ -192,19 +222,7 @@ const Order = () => {
                                 onClick={()=>{
                                     setPage((currPage)=>currPage - 1)
                                 }}>prev</button>
-                                {/* <button className="foot-button-next m-1"
-                                    onClick={()=>{
-                                        if (page === formTitles.length - 1) {
-                                            handleSubmit();
-                                            console.log(formData)
-                                            // navigate("/payment")
-                                            navigate("/payment", { state: { formData } });
-                                            
-                                        } else {
-                                            setPage((currPage)=>currPage + 1)  
-                                        }
-                                    }}
-                                >{page === formTitles.length - 1 ? "Finish" : "next"}</button> */}
+
                                 <button
                                     className="foot-button-next m-lg-1"
                                     onClick={() => {

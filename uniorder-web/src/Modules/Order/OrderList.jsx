@@ -11,8 +11,8 @@ const [orders, setOrders] = useState([]);
 const [filteredOrders, setFilteredOrders] = useState([]);
 const pollingInterval = 5000; // Poll every 5 seconds
 const allOrdersCount = orders.length;
-const paidOrdersCount = orders.filter((order) => order.orderStatus === "Paid").length;
-const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid").length;
+const paidOrdersCount = orders.filter((order) => order.OrderStatus === "Paid").length;
+const unpaidOrdersCount = orders.filter((order) => order.OrderStatus === "Unpaid").length;
 
   useEffect(() => {
     fetchOrders("All");
@@ -37,9 +37,9 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
   const applyFilter = () => {
     let filtered = orders;
     if (activeButton === "Paid") {
-      filtered = orders.filter((order) => order.orderStatus === "Paid");
+      filtered = orders.filter((order) => order.OrderStatus === "Paid");
     } else if (activeButton === "Unpaid") {
-      filtered = orders.filter((order) => order.orderStatus === "Unpaid");
+      filtered = orders.filter((order) => order.OrderStatus === "Unpaid");
     }
     setFilteredOrders(filtered); 
   };
@@ -49,12 +49,13 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
   };
 
   const handleDownload = () => {
-    const worksheet = XLSX.utils.json_to_sheet(filteredOrders);
+    const paidOrders = orders.filter((order) => order.OrderStatus === "Paid");
+    const worksheet = XLSX.utils.json_to_sheet(paidOrders);
     const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, "Orders");
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Paid Orders");
     const excelBuffer = XLSX.write(workbook, { bookType: "xlsx", type: "array" });
     const data = new Blob([excelBuffer], { type: "application/octet-stream" });
-    saveAs(data, "orders.xlsx");
+    saveAs(data, "Paid orders.xlsx");
   };
   return (
     <div>
@@ -97,7 +98,7 @@ const unpaidOrdersCount = orders.filter((order) => order.orderStatus === "Unpaid
                       <Col className="col-lg-1">{order.sashColor}</Col>
                       <Col className="col-lg-1 d-none d-md-flex">{order.paymentNumber}</Col>
                       <Col className="col-lg-1 d-none d-md-flex" style={{textAlign: "right"}}>{order.Action}</Col>
-                      <Col className="col-lg-1" style={{textAlign: "right"}}>{order.orderStatus}</Col>
+                      <Col className="col-lg-1" style={{textAlign: "right"}}>{order.OrderStatus}</Col>
                     </Row>
                   </div>
                 ))
