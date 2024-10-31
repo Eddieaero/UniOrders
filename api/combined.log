@@ -1,0 +1,542 @@
+{"level":"info","message":"Order created successfully","orderId":"4bec4d","timestamp":"2024-09-16T05:10:02.098Z"}
+{"level":"info","message":"Order created successfully","orderId":"115373","timestamp":"2024-09-16T09:59:19.670Z"}
+{"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:51:13.773Z"}
+{"error":{"fatal":true},"level":"error","message":"Error creating order","timestamp":"2024-10-18T09:54:42.253Z"}
+{"level":"info","message":"Order created successfully","orderId":"56b0b5","timestamp":"2024-10-18T10:01:25.212Z"}
+{"level":"info","message":"Order created successfully","orderId":"14b49c","timestamp":"2024-10-18T18:37:11.369Z"}
+{"level":"info","message":"Order created successfully","orderId":"22cc5c","timestamp":"2024-10-19T03:18:45.481Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:20:16.327Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:27:09.796Z","transactionRef":"22cc5c"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T03:30:04.217Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-19T03:37:14.035Z","transactionRef":"22cc5c"}
+{"level":"info","message":"Order created successfully","orderId":"f84b15","timestamp":"2024-10-19T03:38:20.471Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"671329b5c2c1d","status":"success"},"timestamp":"2024-10-19T03:38:32.092Z","transactionRef":"f84b15"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:49:52.485Z","transactionRef":"f84b15"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T04:51:01.939Z","transactionRef":"f84b15"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"67133b028c707","status":"success"},"timestamp":"2024-10-19T04:52:20.951Z","transactionRef":"f84b15"}
+{"level":"info","message":"Order created successfully","orderId":"f1f9fa","timestamp":"2024-10-19T07:05:01.601Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-19T07:05:48.645Z","transactionRef":"f1f9fa"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"67135a5a259ea","status":"success"},"timestamp":"2024-10-19T07:06:04.795Z","transactionRef":"f1f9fa"}
+{"level":"info","message":"Order created successfully","orderId":"0d7826","timestamp":"2024-10-19T07:08:51.498Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"67135b07974b7","status":"success"},"timestamp":"2024-10-19T07:08:57.841Z","transactionRef":"0d7826"}
+{"level":"info","message":"Order created successfully","orderId":"88d85c","timestamp":"2024-10-20T10:35:17.953Z"}
+{"level":"info","message":"Zeno payment initiated","response":{"message":"Wallet payment successful","order_id":"6714dcf1e43ca","status":"success"},"timestamp":"2024-10-20T10:35:32.631Z","transactionRef":"88d85c"}
+{"level":"info","message":"Order created successfully","orderId":"302144","timestamp":"2024-10-20T11:12:30.624Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:12:56.349Z","transactionRef":"302144"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:13:48.776Z","transactionRef":"302144"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"config":{"adapter":["xhr","http","fetch"],"data":"create_order=1&buyer_name=Edson%20Kuzengwa&buyer_phone=0787537628&buyer_email=firstedson%40gmail.com&amount=20000&account_id=zp59226&secret_key=&api_key=","env":{},"headers":{"Accept":"application/json, text/plain, */*","Accept-Encoding":"gzip, compress, deflate, br","Content-Length":"153","Content-Type":"application/x-www-form-urlencoded","User-Agent":"axios/1.7.7"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://api.zeno.africa","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"data":{"message":"Wallet payment successful","order_id":"6714e6ebb9838","status":"success"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"","cache-control":"no-store, no-cache, must-revalidate","connection":"Keep-Alive","content-length":"76","content-type":"text/html; charset=UTF-8","date":"Sun, 20 Oct 2024 11:18:07 GMT","expires":"Thu, 19 Nov 1981 08:52:00 GMT","keep-alive":"timeout=5, max=100","pragma":"no-cache","server":"LiteSpeed","set-cookie":"PHPSESSID=8ueuumratirg8epgi8ef0s61q9; path=/; secure","vary":"Accept-Encoding,User-Agent"},"request":{"_closed":true,"_contentLength":"153","_defaultKeepAlive":true,"_ended":true,"_events":{},"_eventsCount":7,"_hasBody":true,"_header":"POST / HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nContent-Type: application/x-www-form-urlencoded\r\nUser-Agent: axios/1.7.7\r\nContent-Length: 153\r\nAccept-Encoding: gzip, compress, deflate, br\r\nHost: api.zeno.africa\r\nConnection: keep-alive\r\n\r\n","_headerSent":true,"_keepAliveTimeout":0,"_last":false,"_redirectable":{"_currentRequest":"[Circular]","_currentUrl":"https://api.zeno.africa/","_ended":true,"_ending":true,"_events":{},"_eventsCount":3,"_options":{"agents":{},"beforeRedirects":{},"headers":{"Accept":"application/json, text/plain, */*","Accept-Encoding":"gzip, compress, deflate, br","Content-Length":"153","Content-Type":"application/x-www-form-urlencoded","User-Agent":"axios/1.7.7"},"hostname":"api.zeno.africa","maxBodyLength":null,"maxRedirects":21,"method":"POST","nativeProtocols":{"http:":{"METHODS":["ACL","BIND","CHECKOUT","CONNECT","COPY","DELETE","GET","HEAD","LINK","LOCK","M-SEARCH","MERGE","MKACTIVITY","MKCALENDAR","MKCOL","MOVE","NOTIFY","OPTIONS","PATCH","POST","PROPFIND","PROPPATCH","PURGE","PUT","REBIND","REPORT","SEARCH","SOURCE","SUBSCRIBE","TRACE","UNBIND","UNLINK","UNLOCK","UNSUBSCRIBE"],"STATUS_CODES":{"100":"Continue","101":"Switching Protocols","102":"Processing","103":"Early Hints","200":"OK","201":"Created","202":"Accepted","203":"Non-Authoritative Information","204":"No Content","205":"Reset Content","206":"Partial Content","207":"Multi-Status","208":"Already Reported","226":"IM Used","300":"Multiple Choices","301":"Moved Permanently","302":"Found","303":"See Other","304":"Not Modified","305":"Use Proxy","307":"Temporary Redirect","308":"Permanent Redirect","400":"Bad Request","401":"Unauthorized","402":"Payment Required","403":"Forbidden","404":"Not Found","405":"Method Not Allowed","406":"Not Acceptable","407":"Proxy Authentication Required","408":"Request Timeout","409":"Conflict","410":"Gone","411":"Length Required","412":"Precondition Failed","413":"Payload Too Large","414":"URI Too Long","415":"Unsupported Media Type","416":"Range Not Satisfiable","417":"Expectation Failed","418":"I'm a Teapot","421":"Misdirected Request","422":"Unprocessable Entity","423":"Locked","424":"Failed Dependency","425":"Too Early","426":"Upgrade Required","428":"Precondition Required","429":"Too Many Requests","431":"Request Header Fields Too Large","451":"Unavailable For Legal Reasons","500":"Internal Server Error","501":"Not Implemented","502":"Bad Gateway","503":"Service Unavailable","504":"Gateway Timeout","505":"HTTP Version Not Supported","506":"Variant Also Negotiates","507":"Insufficient Storage","508":"Loop Detected","509":"Bandwidth Limit Exceeded","510":"Not Extended","511":"Network Authentication Required"},"globalAgent":{"_events":{},"_eventsCount":2,"defaultPort":80,"freeSockets":{},"keepAlive":true,"keepAliveMsecs":1000,"maxFreeSockets":256,"maxSockets":null,"maxTotalSockets":null,"options":{"keepAlive":true,"noDelay":true,"path":null,"scheduling":"lifo","timeout":5000},"protocol":"http:","requests":{},"scheduling":"lifo","sockets":{},"totalSocketCount":0},"maxHeaderSize":16384},"https:":{"globalAgent":{"_events":{},"_eventsCount":2,"_sessionCache":{"list":[],"map":{}},"defaultPort":443,"freeSockets":{"api.zeno.africa:443:::::::::::::::::::::":[{"_SNICallback":null,"_closeAfterHandlingError":false,"_controlReleased":true,"_events":{"close":[null,null,null]},"_eventsCount":9,"_hadError":false,"_host":"api.zeno.africa","_httpMessage":null,"_newSessionPending":false,"_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":16384,"length":0,"pipes":[]},"_rejectUnauthorized":true,"_requestCert":true,"_secureEstablished":true,"_securePending":false,"_server":null,"_sockname":null,"_tlsOptions":{"isServer":false,"pipe":false,"rejectUnauthorized":true,"requestCert":true,"secureContext":{"context":{}}},"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":16384,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"alpnProtocol":false,"authorizationError":null,"authorized":true,"connecting":false,"encrypted":true,"parser":null,"secureConnecting":false,"servername":"api.zeno.africa","ssl":{"_parent":{"onconnection":null,"reading":true},"_parentWrap":null,"_secureContext":{"context":{}},"reading":true},"timeout":5000}]},"keepAlive":true,"keepAliveMsecs":1000,"maxCachedSessions":100,"maxFreeSockets":256,"maxSockets":null,"maxTotalSockets":null,"options":{"keepAlive":true,"noDelay":true,"path":null,"scheduling":"lifo","timeout":5000},"protocol":"https:","requests":{},"scheduling":"lifo","sockets":{},"totalSocketCount":1}}},"path":"/","pathname":"/","port":"","protocol":"https:"},"_redirectCount":0,"_redirects":[],"_requestBodyBuffers":[],"_requestBodyLength":153,"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":16384,"length":0,"pendingcb":0,"writelen":0}},"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_trailer":"","aborted":false,"agent":{"_events":{},"_eventsCount":2,"_sessionCache":{"list":[],"map":{}},"defaultPort":443,"freeSockets":{"api.zeno.africa:443:::::::::::::::::::::":[{"_SNICallback":null,"_closeAfterHandlingError":false,"_controlReleased":true,"_events":{"close":[null,null,null]},"_eventsCount":9,"_hadError":false,"_host":"api.zeno.africa","_httpMessage":null,"_newSessionPending":false,"_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":16384,"length":0,"pipes":[]},"_rejectUnauthorized":true,"_requestCert":true,"_secureEstablished":true,"_securePending":false,"_server":null,"_sockname":null,"_tlsOptions":{"isServer":false,"pipe":false,"rejectUnauthorized":true,"requestCert":true,"secureContext":{"context":{}}},"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":16384,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"alpnProtocol":false,"authorizationError":null,"authorized":true,"connecting":false,"encrypted":true,"parser":null,"secureConnecting":false,"servername":"api.zeno.africa","ssl":{"_parent":{"onconnection":null,"reading":true},"_parentWrap":null,"_secureContext":{"context":{}},"reading":true},"timeout":5000}]},"keepAlive":true,"keepAliveMsecs":1000,"maxCachedSessions":100,"maxFreeSockets":256,"maxSockets":null,"maxTotalSockets":null,"options":{"keepAlive":true,"noDelay":true,"path":null,"scheduling":"lifo","timeout":5000},"protocol":"https:","requests":{},"scheduling":"lifo","sockets":{},"totalSocketCount":1},"chunkedEncoding":false,"destroyed":true,"finished":true,"host":"api.zeno.africa","maxHeadersCount":null,"maxRequestsOnConnectionReached":false,"method":"POST","outputData":[],"outputSize":0,"parser":null,"path":"/","protocol":"https:","res":{"_consuming":false,"_dumped":false,"_events":{"close":[null,null,null],"end":[null,null,null],"error":[null,null,null],"finish":[null,null]},"_eventsCount":4,"_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":16384,"length":0,"pipes":[]},"aborted":false,"client":{"_SNICallback":null,"_closeAfterHandlingError":false,"_controlReleased":true,"_events":{"close":[null,null,null]},"_eventsCount":9,"_hadError":false,"_host":"api.zeno.africa","_httpMessage":null,"_newSessionPending":false,"_parent":null,"_pendingData":null,"_pendingEncoding":"","_readableState":{"awaitDrainWriters":null,"buffer":[],"bufferIndex":0,"highWaterMark":16384,"length":0,"pipes":[]},"_rejectUnauthorized":true,"_requestCert":true,"_secureEstablished":true,"_securePending":false,"_server":null,"_sockname":null,"_tlsOptions":{"isServer":false,"pipe":false,"rejectUnauthorized":true,"requestCert":true,"secureContext":{"context":{}}},"_writableState":{"bufferedIndex":0,"corked":0,"highWaterMark":16384,"length":0,"pendingcb":0,"writelen":0},"allowHalfOpen":false,"alpnProtocol":false,"authorizationError":null,"authorized":true,"connecting":false,"encrypted":true,"parser":null,"secureConnecting":false,"servername":"api.zeno.africa","ssl":{"_parent":{"onconnection":null,"reading":true},"_parentWrap":null,"_secureContext":{"context":{}},"reading":true},"timeout":5000},"complete":true,"httpVersion":"1.1","httpVersionMajor":1,"httpVersionMinor":1,"method":null,"rawHeaders":["Connection","Keep-Alive","Keep-Alive","timeout=5, max=100","expires","Thu, 19 Nov 1981 08:52:00 GMT","cache-control","no-store, no-cache, must-revalidate","pragma","no-cache","set-cookie","PHPSESSID=8ueuumratirg8epgi8ef0s61q9; path=/; secure","content-type","text/html; charset=UTF-8","content-length","76","content-encoding","br","vary","Accept-Encoding,User-Agent","date","Sun, 20 Oct 2024 11:18:07 GMT","server","LiteSpeed","alt-svc","h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\""],"rawTrailers":[],"redirects":[],"req":"[Circular]","responseUrl":"https://api.zeno.africa/","socket":null,"statusCode":200,"statusMessage":"OK","upgrade":false,"url":""},"reusedSocket":false,"sendDate":false,"shouldKeepAlive":true,"strictContentLength":false,"timeoutCb":null,"upgradeOrConnect":false,"useChunkedEncodingByDefault":true,"writable":true},"status":200,"statusText":"OK"},"timestamp":"2024-10-20T11:18:06.364Z","transactionRef":"302144"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:18:07.809Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:18:14.639Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:18:36.757Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:18:43.731Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:19:05.632Z"}
+{"level":"warn","message":"Payment status check timed out","timestamp":"2024-10-20T11:19:10.647Z"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:19:10.649Z","transactionRef":"302144"}
+{"level":"info","message":"Order created successfully","orderId":"d533a5","timestamp":"2024-10-20T11:21:37.853Z"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714e7c63ab98","status":"success"},"timestamp":"2024-10-20T11:21:44.897Z","transactionRef":"d533a5"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:21:46.303Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:21:53.265Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:00.299Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:07.186Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:14.250Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:21.217Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:28.086Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:38.085Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  Undefined array key \"order_id\" in <b>/home/zenoafri/api.zeno.africa/order-status.php</b> on line <b>36</b><br />\n<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:22:44.979Z"}
+{"level":"warn","message":"Payment status check timed out","timestamp":"2024-10-20T11:22:49.992Z"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:22:49.996Z","transactionRef":"d533a5"}
+{"level":"info","message":"Order created successfully","orderId":"1f9f08","timestamp":"2024-10-20T11:55:58.403Z"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714efd266663","status":"success"},"timestamp":"2024-10-20T11:56:05.051Z","transactionRef":"1f9f08"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:56:06.352Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:56:13.157Z"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T11:56:19.925Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","timestamp":"2024-10-20T11:56:45.967Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T11:56:45.968Z","transactionRef":"1f9f08"}
+{"level":"info","message":"Order created successfully","orderId":"f99365","timestamp":"2024-10-20T12:14:29.025Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:14:51.723Z","transactionRef":"f99365"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714f4539aca5","status":"success"},"timestamp":"2024-10-20T12:15:18.174Z","transactionRef":"f99365"}
+{"level":"info","message":"Payment status response","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T12:15:19.487Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","timestamp":"2024-10-20T12:15:45.536Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:15:45.537Z","transactionRef":"f99365"}
+{"level":"info","message":"Order created successfully","orderId":"01fc3d","timestamp":"2024-10-20T12:24:41.139Z"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714f68d33b1b","status":"success"},"timestamp":"2024-10-20T12:24:47.707Z","transactionRef":"01fc3d"}
+{"level":"info","message":"Payment status response","order_id":"6714f68d33b1b","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T12:24:49.022Z"}
+{"level":"info","message":"Payment status response","order_id":"6714f68d33b1b","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T12:24:55.762Z"}
+{"level":"info","message":"Payment status response","order_id":"6714f68d33b1b","response":"<br />\n<b>Warning</b>:  file_get_contents(https://apigw.selcommobile.com/v1/checkout/order-status?order_id=): Failed to open stream: HTTP request failed! HTTP/1.1 412 Precondition Failed\r\n in <b>/home/zenoafri/api.zeno.africa/Client.php</b> on line <b>88</b><br />\n{\"status\":\"error\",\"message\":\"An error occurred: Request failed\"}","timestamp":"2024-10-20T12:25:02.761Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6714f68d33b1b","timestamp":"2024-10-20T12:25:28.810Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:25:28.811Z","transactionRef":"01fc3d"}
+{"level":"info","message":"Order created successfully","orderId":"42b182","timestamp":"2024-10-20T12:40:48.019Z"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:41:06.128Z","transactionRef":"42b182"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714fa6f37c0e","status":"success"},"timestamp":"2024-10-20T12:41:21.708Z","transactionRef":"42b182"}
+{"level":"info","message":"Payment status response","order_id":"6714fa6f37c0e","response":{"message":"Order status updated","order_id":"6714fa6f37c0e","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T12:41:23.057Z"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:41:23.059Z","transactionRef":"42b182"}
+{"level":"info","message":"Order created successfully","orderId":"4d28a0","timestamp":"2024-10-20T12:49:43.592Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:50:06.809Z","transactionRef":"4d28a0"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:50:58.378Z","transactionRef":"4d28a0"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"6714fd02c1084","status":"success"},"timestamp":"2024-10-20T12:52:21.404Z","transactionRef":"4d28a0"}
+{"level":"info","message":"Payment status response","order_id":"6714fd02c1084","response":{"message":"Order status updated","order_id":"6714fd02c1084","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T12:52:22.797Z"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T12:52:22.799Z","transactionRef":"4d28a0"}
+{"level":"info","message":"Order created successfully","orderId":"d3d3cb","timestamp":"2024-10-20T13:43:01.165Z"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"671508eb2674c","status":"success"},"timestamp":"2024-10-20T13:43:09.706Z","transactionRef":"d3d3cb"}
+{"level":"info","message":"Payment status response","order_id":"671508eb2674c","response":{"message":"Order status updated","order_id":"671508eb2674c","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T13:43:11.016Z"}
+{"error":"Cannot set headers after they are sent to the client","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:43:11.022Z","transactionRef":"d3d3cb"}
+{"level":"info","message":"Order created successfully","orderId":"ed35ef","timestamp":"2024-10-20T13:46:44.982Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:47:07.398Z","transactionRef":"ed35ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:49:59.175Z","transactionRef":"ed35ef"}
+{"level":"info","message":"Zeno Payment initiated","paymentResponse":{"message":"Wallet payment successful","order_id":"67150a8f5d11c","status":"success"},"timestamp":"2024-10-20T13:50:10.057Z","transactionRef":"ed35ef"}
+{"level":"info","message":"Payment status response","order_id":"67150a8f5d11c","response":{"message":"Order status updated","order_id":"67150a8f5d11c","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T13:50:11.570Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"67150a8f5d11c","timestamp":"2024-10-20T13:50:37.641Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T13:50:37.643Z","transactionRef":"ed35ef"}
+{"level":"info","message":"Order created successfully","orderId":"3ce2ef","timestamp":"2024-10-20T16:05:42.748Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152a9939c4b","status":"success"},"timestamp":"2024-10-20T16:06:52.032Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:06:52.037Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152aab40e50","status":"success"},"timestamp":"2024-10-20T16:07:10.019Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:07:10.020Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152cadcf7da","status":"success"},"timestamp":"2024-10-20T16:15:44.618Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:15:44.627Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152d68e76c3","status":"success"},"timestamp":"2024-10-20T16:18:51.546Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:18:51.549Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152df7cd086","status":"success"},"timestamp":"2024-10-20T16:21:14.454Z","transactionRef":"3ce2ef"}
+{"error":"Cannot read properties of undefined (reading 'order_id')","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:21:14.461Z","transactionRef":"3ce2ef"}
+{"error":"socket hang up","level":"error","message":"Error initiating payment","timestamp":"2024-10-20T16:26:33.937Z","transactionRef":"3ce2ef"}
+{"error":"socket hang up","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:26:33.941Z","transactionRef":"3ce2ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error initiating payment","timestamp":"2024-10-20T16:27:01.105Z","transactionRef":"3ce2ef"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-20T16:27:01.106Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67152f6137290","status":"success"},"timestamp":"2024-10-20T16:27:15.769Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-20T16:27:15.771Z","transactionRef":"3ce2ef"}
+{"level":"info","message":"Order created successfully","orderId":"c6c3de","timestamp":"2024-10-20T16:51:00.334Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6715352f1514e","status":"success"},"timestamp":"2024-10-20T16:52:01.720Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-20T16:52:01.722Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Payment status response","order_id":"6715352f1514e","response":{"message":"Order status updated","order_id":"6715352f1514e","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:52:06.120Z"}
+{"level":"info","message":"Payment status response","order_id":"6715352f1514e","response":{"message":"Order status updated","order_id":"6715352f1514e","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:52:13.101Z"}
+{"level":"info","message":"Payment status response","order_id":"6715352f1514e","response":{"message":"Order status updated","order_id":"6715352f1514e","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:52:19.954Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6715352f1514e","timestamp":"2024-10-20T16:52:46.011Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"6715352f1514e","timestamp":"2024-10-20T16:52:46.012Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671535831d961","status":"success"},"timestamp":"2024-10-20T16:53:25.656Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-20T16:53:25.657Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:53:30.389Z"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:53:37.265Z"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:53:44.318Z"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:53:51.188Z"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:53:58.089Z"}
+{"level":"info","message":"Payment status response","order_id":"671535831d961","response":{"message":"Order status updated","order_id":"671535831d961","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:54:05.062Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535831d961","timestamp":"2024-10-20T16:54:31.127Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535831d961","timestamp":"2024-10-20T16:54:31.128Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671535d5b8374","status":"success"},"timestamp":"2024-10-20T16:54:48.293Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-20T16:54:48.294Z","transactionRef":"c6c3de"}
+{"level":"info","message":"Payment status response","order_id":"671535d5b8374","response":{"message":"Order status updated","order_id":"671535d5b8374","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T16:54:52.710Z"}
+{"level":"info","message":"Payment status response","order_id":"671535d5b8374","response":{"message":"Order status updated","order_id":"671535d5b8374","payment_status":"COMPLETED","status":"success"},"timestamp":"2024-10-20T16:54:59.685Z"}
+{"level":"info","message":"Payment status response","order_id":"671535d5b8374","response":{"message":"Order status updated","order_id":"671535d5b8374","payment_status":"COMPLETED","status":"success"},"timestamp":"2024-10-20T16:55:06.769Z"}
+{"level":"info","message":"Payment status response","order_id":"671535d5b8374","response":{"message":"Order status updated","order_id":"671535d5b8374","payment_status":"COMPLETED","status":"success"},"timestamp":"2024-10-20T16:55:13.833Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535d5b8374","timestamp":"2024-10-20T16:55:39.903Z"}
+{"error":"connect ETIMEDOUT 77.95.113.12:443","level":"error","message":"Error checking payment status","order_id":"671535d5b8374","timestamp":"2024-10-20T16:55:39.903Z"}
+{"level":"info","message":"Order created successfully","orderId":"39e2c0","timestamp":"2024-10-20T17:24:36.397Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67153cda856c3","status":"success"},"timestamp":"2024-10-20T17:24:45.142Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-20T17:24:45.145Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Payment status response","order_id":"67153cda856c3","response":{"message":"Order status updated","order_id":"67153cda856c3","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-20T17:24:49.551Z"}
+{"level":"warn","message":"Payment failed","order_id":"67153cda856c3","timestamp":"2024-10-20T17:24:49.553Z"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:06.948Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:06.950Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:10.080Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:10.082Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Error initiating payment","timestamp":"2024-10-21T01:20:31.384Z","transactionRef":"39e2c0"}
+{"error":"getaddrinfo ENOTFOUND api.zeno.africa","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-21T01:20:31.385Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6715b00edfd79","status":"success"},"timestamp":"2024-10-21T01:36:18.323Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-21T01:36:18.329Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Payment status response","order_id":"6715b00edfd79","response":{"message":"Order status updated","order_id":"6715b00edfd79","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-21T01:36:28.347Z"}
+{"level":"warn","message":"Payment failed","order_id":"6715b00edfd79","timestamp":"2024-10-21T01:36:28.348Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6715b0a4a9eb3","status":"success"},"timestamp":"2024-10-21T01:38:48.004Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-21T01:38:48.006Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Payment status response","order_id":"6715b0a4a9eb3","response":{"message":"Order status updated","order_id":"6715b0a4a9eb3","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-21T01:38:58.244Z"}
+{"level":"warn","message":"Payment failed","order_id":"6715b0a4a9eb3","timestamp":"2024-10-21T01:38:58.245Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6715bab0328f3","status":"success"},"timestamp":"2024-10-21T02:21:39.572Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-21T02:21:39.577Z","transactionRef":"39e2c0"}
+{"level":"info","message":"Payment status response","order_id":"6715bab0328f3","response":{"message":"Order status updated","order_id":"6715bab0328f3","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-21T02:21:48.363Z"}
+{"level":"warn","message":"Payment failed","order_id":"6715bab0328f3","timestamp":"2024-10-21T02:21:48.365Z"}
+{"level":"info","message":"Order created successfully","orderId":"071e1c","timestamp":"2024-10-22T08:08:02.824Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:08:24.116Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:08:34.129Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T08:08:44.151Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T08:08:54.161Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T08:09:04.178Z","transactionRef":"071e1c"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T08:09:04.181Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67175daed9e4c","status":"success"},"timestamp":"2024-10-22T08:09:22.515Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:09:22.517Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment status response","order_id":"67175daed9e4c","response":{"message":"Order status updated","order_id":"67175daed9e4c","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T08:09:26.906Z"}
+{"level":"warn","message":"Payment failed","order_id":"67175daed9e4c","timestamp":"2024-10-22T08:09:26.909Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:09:47.803Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:09:57.818Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T08:10:01.647Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:10:01.649Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T08:10:12.838Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:10:12.840Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67175e04d725a","status":"success"},"timestamp":"2024-10-22T08:10:48.500Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:10:48.501Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment status response","order_id":"67175e04d725a","response":{"message":"Order status updated","order_id":"67175e04d725a","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T08:10:52.857Z"}
+{"level":"warn","message":"Payment failed","order_id":"67175e04d725a","timestamp":"2024-10-22T08:10:52.858Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:11:10.302Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T08:11:14.659Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:11:14.660Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T08:12:40.391Z","transactionRef":"071e1c"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T08:12:50.406Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T08:12:54.259Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:12:54.261Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67175ed64dd09","status":"success"},"timestamp":"2024-10-22T08:14:17.917Z","transactionRef":"071e1c"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T08:14:17.919Z","transactionRef":"071e1c"}
+{"level":"info","message":"Payment status response","order_id":"67175ed64dd09","response":{"message":"Order status updated","order_id":"67175ed64dd09","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T08:14:22.259Z"}
+{"level":"warn","message":"Payment failed","order_id":"67175ed64dd09","timestamp":"2024-10-22T08:14:22.261Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:15.082Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:20.467Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T08:47:27.826Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:47:47.578Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:48:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:49:47.604Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:50:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:51:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:52:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:53:47.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:54:47.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:55:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:56:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:57:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:58:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T08:59:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:00:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:01:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:06.008Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:07.219Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:12.641Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:17.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:22.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:27.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:32.231Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:37.225Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:42.222Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:52.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:02:57.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:02.577Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:07.577Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:12.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:17.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:22.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:27.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:32.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:37.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:42.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:03:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:04:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:05:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:06:47.583Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:28.431Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:35.620Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:41.997Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:44.154Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:07:44.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:07:47.586Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:08:00.721Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:08:19.446Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:08:47.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:09:47.593Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:10:04.852Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:10:47.592Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:11:11.835Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:11:22.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:11:47.582Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:12:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:13:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:14:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:15:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:16:47.585Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:16:57.666Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:04.842Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:12.670Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:17:19.254Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:17:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:18:48.628Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:18:59.481Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:19:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:35.862Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:37.226Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:42.219Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:47.222Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:52.220Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:20:57.645Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:02.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:07.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:12.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:17.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:22.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:27.587Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:32.579Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:37.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:42.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:21:52.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:40.957Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:42.228Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:22:43.457Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:52.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:22:57.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:02.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:07.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:12.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:17.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:22.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:27.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:32.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:37.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:23:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:24:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:25:47.602Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:26:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:27:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:28:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:29:47.580Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:30:47.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:31:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:32:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:33:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:34:47.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:35:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:36:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:37:47.581Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:38:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:39:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:40:47.586Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:41:44.949Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:41:47.583Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:42:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:43:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:44:47.595Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:45:18.995Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:45:47.636Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:46:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:47:47.582Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:48:47.594Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:48:59.998Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:49:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:50:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:51:47.592Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:52:25.794Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:52:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:53:47.595Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:54:31.792Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:54:47.588Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T09:54:49.434Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:55:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:56:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:57:47.584Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:58:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T09:59:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:00:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:01:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:02:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:03:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:04:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:05:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:06:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:07:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:08:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:09:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:10:47.603Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:11:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:12:47.599Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:12:47.805Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:13:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:14:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:15:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:16:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:17:47.599Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:18:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:19:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:20:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:21:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:22:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:23:47.587Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:24:14.293Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:24:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:25:47.589Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:26:15.301Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:26:47.601Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:27:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:28:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:29:47.609Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:30:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:31:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:32:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:33:47.600Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:34:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:35:47.590Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:36:47.589Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:37:10.619Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:37:47.613Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:38:47.589Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:39:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:40:47.602Z"}
+{"error":{},"level":"error","message":"Error creating order","timestamp":"2024-10-22T10:41:24.463Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:41:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:42:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:43:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:44:47.594Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:45:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:46:47.614Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:47:48.682Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:48:47.604Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:49:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:50:47.585Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:51:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:52:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:53:47.586Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:54:47.598Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:55:47.592Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:56:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:57:47.588Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:58:47.609Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T10:59:47.596Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:00:47.607Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:01:47.593Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:02:47.805Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:03:47.619Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:04:47.632Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:05:47.597Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:06:47.630Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:11:47.602Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:12:47.595Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:13:47.591Z"}
+{"error":{},"level":"error","message":"Error fetching orders","timestamp":"2024-10-22T11:14:47.586Z"}
+{"level":"info","message":"Order created successfully","orderId":"04612b","timestamp":"2024-10-22T11:17:07.515Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671789beeb667","status":"success"},"timestamp":"2024-10-22T11:17:25.999Z","transactionRef":"04612b"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T11:17:26.001Z","transactionRef":"04612b"}
+{"level":"info","message":"Payment status response","order_id":"671789beeb667","response":{"message":"Order status updated","order_id":"671789beeb667","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T11:17:31.338Z"}
+{"level":"warn","message":"Payment failed","order_id":"671789beeb667","timestamp":"2024-10-22T11:17:31.340Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67178b9184001","status":"success"},"timestamp":"2024-10-22T11:25:15.039Z","transactionRef":"04612b"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T11:25:15.041Z","transactionRef":"04612b"}
+{"level":"info","message":"Payment status response","order_id":"67178b9184001","response":{"message":"Order status updated","order_id":"67178b9184001","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T11:25:21.873Z"}
+{"level":"warn","message":"Payment failed","order_id":"67178b9184001","timestamp":"2024-10-22T11:25:21.875Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:00:49.072Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:00:59.093Z","transactionRef":"04612b"}
+{"error":"read ECONNRESET","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:00:59.933Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:01:09.944Z","transactionRef":"04612b"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:01:19.965Z","transactionRef":"04612b"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:01:19.967Z","transactionRef":"04612b"}
+{"level":"info","message":"Order created successfully","orderId":"9dceb8","timestamp":"2024-10-22T12:02:02.452Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:02:15.599Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:02:25.615Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:02:35.629Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:02:45.636Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:02:55.649Z","transactionRef":"9dceb8"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:02:55.651Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:03:51.542Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:04:01.551Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:04:11.566Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:04:21.587Z","transactionRef":"9dceb8"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:04:31.596Z","transactionRef":"9dceb8"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:04:31.597Z","transactionRef":"9dceb8"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671794e3d8064","status":"success"},"timestamp":"2024-10-22T12:04:56.725Z","transactionRef":"9dceb8"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T12:04:56.726Z","transactionRef":"9dceb8"}
+{"level":"info","message":"Order created successfully","orderId":"61bb8d","timestamp":"2024-10-22T12:06:16.682Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:06:29.684Z","transactionRef":"61bb8d"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:06:39.695Z","transactionRef":"61bb8d"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T12:06:49.530Z","transactionRef":"61bb8d"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T12:06:49.532Z","transactionRef":"61bb8d"}
+{"level":"info","message":"Order created successfully","orderId":"8ab3ea","timestamp":"2024-10-22T12:08:32.295Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:08:44.489Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:08:54.495Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:09:04.509Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:09:14.525Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:09:24.531Z","transactionRef":"8ab3ea"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:09:24.533Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:09:39.430Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-22T12:09:48.776Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T12:09:48.777Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-22T12:11:25.708Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-22T12:11:35.717Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-22T12:11:45.729Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-22T12:11:55.745Z","transactionRef":"8ab3ea"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-22T12:12:05.757Z","transactionRef":"8ab3ea"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-22T12:12:05.759Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671796d094909","status":"success"},"timestamp":"2024-10-22T12:13:12.521Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T12:13:12.522Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Payment status response","order_id":"671796d094909","response":{"message":"Order status updated","order_id":"671796d094909","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T12:14:18.561Z"}
+{"level":"warn","message":"Payment failed","order_id":"671796d094909","timestamp":"2024-10-22T12:14:18.563Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6717a116817ce","status":"success"},"timestamp":"2024-10-22T12:56:58.712Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-22T12:56:58.718Z","transactionRef":"8ab3ea"}
+{"level":"info","message":"Payment status response","order_id":"6717a116817ce","response":{"message":"Order status updated","order_id":"6717a116817ce","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-22T12:58:02.833Z"}
+{"level":"warn","message":"Payment failed","order_id":"6717a116817ce","timestamp":"2024-10-22T12:58:02.835Z"}
+{"error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"message":"Table 'uniorders.orders' doesn't exist","sql":"SELECT * FROM orders","sqlMessage":"Table 'uniorders.orders' doesn't exist","sqlState":"42S02"},"level":"error","message":"Error fetching orders","timestamp":"2024-10-23T17:04:57.746Z"}
+{"level":"info","message":"Order created successfully","orderId":"fc7a72","timestamp":"2024-10-23T17:09:54.010Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671931134d9f2","status":"success"},"timestamp":"2024-10-23T17:23:33.191Z","transactionRef":"fc7a72"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-23T17:23:33.200Z","transactionRef":"fc7a72"}
+{"level":"info","message":"Order created successfully","orderId":"2d2fa8","timestamp":"2024-10-23T17:30:22.346Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671932ba8a3a4","status":"success"},"timestamp":"2024-10-23T17:30:36.689Z","transactionRef":"2d2fa8"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-23T17:30:36.690Z","transactionRef":"2d2fa8"}
+{"level":"info","message":"Payment status response","order_id":"671932ba8a3a4","response":{"message":"Order status updated","order_id":"671932ba8a3a4","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-23T17:31:39.156Z"}
+{"level":"warn","message":"Payment failed","order_id":"671932ba8a3a4","timestamp":"2024-10-23T17:31:39.158Z"}
+{"level":"info","message":"Order created successfully","orderId":"fe7048","timestamp":"2024-10-24T09:34:09.169Z"}
+{"level":"info","message":"Order created successfully","orderId":"a5f8e5","timestamp":"2024-10-24T09:46:43.856Z"}
+{"level":"info","message":"Order created successfully","orderId":"472ca3","timestamp":"2024-10-24T14:11:56.197Z"}
+{"level":"info","message":"Order created successfully","orderId":"5a67b0","timestamp":"2024-10-24T14:31:50.733Z"}
+{"level":"info","message":"Order created successfully","orderId":"530fe1","timestamp":"2024-10-24T14:54:05.162Z"}
+{"level":"info","message":"Order created successfully","orderId":"a98770","timestamp":"2024-10-24T15:01:17.152Z"}
+{"level":"info","message":"Order created successfully","orderId":"298dcf","timestamp":"2024-10-24T15:03:19.312Z"}
+{"level":"info","message":"Order created successfully","orderId":"4d8e79","timestamp":"2024-10-24T15:05:21.611Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry '4d8e79' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('4d8e79', 'EDSON', 'NAGABONA KUZENGWA', '0787537628', 'asas', 'asa', 'white', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry '4d8e79' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T15:08:39.846Z"}
+{"level":"info","message":"Order created successfully","orderId":"61ac35","timestamp":"2024-10-24T15:10:41.074Z"}
+{"level":"info","message":"Order created successfully","orderId":"540fbd","timestamp":"2024-10-24T15:32:05.735Z"}
+{"level":"info","message":"Order created successfully","orderId":"79b859","timestamp":"2024-10-24T15:34:31.764Z"}
+{"level":"info","message":"Order created successfully","orderId":"ac3d87","timestamp":"2024-10-24T15:39:23.671Z"}
+{"level":"info","message":"Order created successfully","orderId":"0aed65","timestamp":"2024-10-24T15:46:34.162Z"}
+{"level":"info","message":"Order created successfully","orderId":"fc6479","timestamp":"2024-10-24T15:52:54.171Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry 'fc6479' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('fc6479', 'asas', 'asas', '0787537622', 'dad', 'ada', 'baby-pink', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry 'fc6479' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T15:52:59.234Z"}
+{"level":"info","message":"Order created successfully","orderId":"c38c4b","timestamp":"2024-10-24T15:55:38.871Z"}
+{"level":"info","message":"Order created successfully","orderId":"0857ca","timestamp":"2024-10-24T16:13:20.212Z"}
+{"level":"info","message":"Order created successfully","orderId":"02b031","timestamp":"2024-10-24T16:32:11.808Z"}
+{"level":"info","message":"Order created successfully","orderId":"adbba5","timestamp":"2024-10-24T16:36:13.514Z"}
+{"level":"info","message":"Order created successfully","orderId":"afff02","timestamp":"2024-10-24T16:40:33.649Z"}
+{"level":"info","message":"Order created successfully","orderId":"88c369","timestamp":"2024-10-24T16:51:42.746Z"}
+{"level":"info","message":"Order created successfully","orderId":"7d0afd","timestamp":"2024-10-24T16:56:38.432Z"}
+{"error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T16:56:38.448Z"}
+{"level":"info","message":"Order created successfully","orderId":"8187ac","timestamp":"2024-10-24T16:58:16.127Z"}
+{"error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T16:58:16.144Z"}
+{"error":{"code":"ER_DUP_ENTRY","errno":1062,"message":"Duplicate entry '8187ac' for key 'orders.PRIMARY'","sql":"INSERT INTO orders (orderId, firstName, lastName, availablePhone, universityName, universityCourse, sashColor, paymentNumber, OrderDate, OrderStatus, quote) VALUES ('8187ac', 'veve', 'eveve', '0787537628', 'wfwf', 'wfwf', 'baby-pink', '0787537628', '2024-10-24', 'Unpaid', NULL)","sqlMessage":"Duplicate entry '8187ac' for key 'orders.PRIMARY'","sqlState":"23000"},"level":"error","message":"Error creating order","timestamp":"2024-10-24T17:02:09.938Z"}
+{"level":"info","message":"Order created successfully","orderId":"2e946a","timestamp":"2024-10-24T17:03:37.717Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"671a865fcc1ee","status":"success"},"timestamp":"2024-10-24T17:39:45.996Z","transactionRef":"2e946a"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-24T17:39:45.999Z","transactionRef":"2e946a"}
+{"level":"info","message":"Order created successfully","orderId":"3ffc82","timestamp":"2024-10-24T17:46:02.258Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"672246d60189b","status":"success"},"timestamp":"2024-10-30T14:46:48.248Z","transactionRef":"f2903b"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-30T14:46:48.419Z","transactionRef":"f2903b"}
+{"level":"info","message":"Payment status response","order_id":"672246d60189b","response":{"message":"Order status updated","order_id":"672246d60189b","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-30T14:48:03.501Z"}
+{"level":"warn","message":"Payment failed","order_id":"672246d60189b","timestamp":"2024-10-30T14:48:03.503Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"672262dd119e2","status":"success"},"timestamp":"2024-10-30T16:46:24.122Z","transactionRef":"d499fd"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-30T16:46:24.270Z","transactionRef":"d499fd"}
+{"level":"info","message":"Payment status response","order_id":"672262dd119e2","response":{"message":"Order status updated","order_id":"672262dd119e2","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-30T16:47:27.470Z"}
+{"level":"warn","message":"Payment failed","order_id":"672262dd119e2","timestamp":"2024-10-30T16:47:27.851Z"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-30T16:51:09.292Z","transactionRef":"d499fd"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 2)","timestamp":"2024-10-30T16:51:19.392Z","transactionRef":"d499fd"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 3)","timestamp":"2024-10-30T16:51:29.414Z","transactionRef":"d499fd"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 4)","timestamp":"2024-10-30T16:51:39.476Z","transactionRef":"d499fd"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 5)","timestamp":"2024-10-30T16:51:49.494Z","transactionRef":"d499fd"}
+{"error":"Max retries reached. Payment initiation failed.","level":"error","message":"Zeno payment initiation failed","timestamp":"2024-10-30T16:51:49.497Z","transactionRef":"d499fd"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67234ba3ec828","status":"success"},"timestamp":"2024-10-31T09:19:29.994Z","transactionRef":"8129f6"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:19:30.038Z","transactionRef":"8129f6"}
+{"level":"info","message":"Payment status response","order_id":"67234ba3ec828","response":{"message":"Order status updated","order_id":"67234ba3ec828","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-31T09:20:31.857Z"}
+{"level":"warn","message":"Payment failed","order_id":"67234ba3ec828","timestamp":"2024-10-31T09:20:31.861Z"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67234c042882d","status":"success"},"timestamp":"2024-10-31T09:21:06.056Z","transactionRef":"8129f6"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:21:06.058Z","transactionRef":"8129f6"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-31T09:22:57.392Z","transactionRef":"16a64f"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:22:57.395Z","transactionRef":"16a64f"}
+{"error":"timeout of 10000ms exceeded","level":"error","message":"Error initiating payment (Attempt 1)","timestamp":"2024-10-31T09:24:08.784Z","transactionRef":"09d29f"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Failed to process wallet payment","status":"error"},"timestamp":"2024-10-31T09:24:12.741Z","transactionRef":"09d29f"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:24:12.744Z","transactionRef":"09d29f"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"67235081c92b4","status":"success"},"timestamp":"2024-10-31T09:40:15.726Z","transactionRef":"09d29f"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:40:15.736Z","transactionRef":"09d29f"}
+{"level":"info","message":"Payment status response","order_id":"67235081c92b4","response":{"message":"Order status updated","order_id":"67235081c92b4","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-31T09:41:17.651Z"}
+{"level":"info","message":"Payment completed successfully","order_id":"67235081c92b4","timestamp":"2024-10-31T09:41:17.654Z"}
+{"level":"info","message":"Order status updated to Paid","timestamp":"2024-10-31T09:41:28.800Z","transactionRef":"09d29f"}
+{"level":"info","message":"Payment initiated successfully","response":{"message":"Wallet payment successful","order_id":"6723519381421","status":"success"},"timestamp":"2024-10-31T09:44:49.515Z","transactionRef":"3f8d98"}
+{"level":"info","message":"Zeno Payment initiated","timestamp":"2024-10-31T09:44:49.518Z","transactionRef":"3f8d98"}
+{"level":"info","message":"Payment status response","order_id":"6723519381421","response":{"message":"Order status updated","order_id":"6723519381421","payment_status":"PENDING","status":"success"},"timestamp":"2024-10-31T09:45:51.387Z"}
+{"level":"info","message":"Payment completed successfully","order_id":"6723519381421","timestamp":"2024-10-31T09:45:51.390Z"}
+{"level":"info","message":"Order status updated to Paid","timestamp":"2024-10-31T09:45:53.312Z","transactionRef":"3f8d98"}
